@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Steam Community Market :: Listings for Silent Ripper</title>
+<link href="http://steamcommunity-a.akamaihd.net/public/shared/css/buttons.css?v=316862053" rel="stylesheet" type="text/css" >
+<link href="http://steamcommunity-a.akamaihd.net/public/shared/css/shared_global.css?v=3895377687" rel="stylesheet" type="text/css" >
+<link href="http://steamcommunity-a.akamaihd.net/public/css/globalv2.css?v=3499384636" rel="stylesheet" type="text/css" >
+<link href="http://steamcommunity-a.akamaihd.net/public/css/skin_1/economy.css?v=1617814919" rel="stylesheet" type="text/css" >
+<link href="http://steamcommunity-a.akamaihd.net/public/css/skin_1/economy_market.css?v=98218486" rel="stylesheet" type="text/css" >
+<link href="http://steamcommunity-a.akamaihd.net/public/css/skin_1/html5.css?v=1141511784" rel="stylesheet" type="text/css" >
+<link href="http://steamcommunity-a.akamaihd.net/public/css/skin_1/header.css?v=3012322474" rel="stylesheet" type="text/css" >
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/prototype-1.7.js?v=671284548&amp;l=english"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/scriptaculous/scriptaculous.js?load=effects,controls,slider,dragdrop&amp;v=1242099091&amp;l=english"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/global.js?v=731073332&amp;l=english"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/jquery-1.8.3.min.js?v=3862121119&amp;l=english"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/shared/javascript/tooltip.js?v=2646267918&amp;l=english"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/shared/javascript/shared_global.js?v=721663140&amp;l=english"></script>
+<script type="text/javascript">$J = jQuery.noConflict();
+if ( typeof JSON != 'object' || !JSON.stringify || !JSON.parse ) { document.write( "<scr" + "ipt type=\"text\/javascript\" src=\"http:\/\/steamcommunity-a.akamaihd.net\/public\/javascript\/json2.js?v=4260573841&amp;l=english\"><\/script>\n" ); };
+</script><script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/economy.js?v=3859021960&amp;l=english"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/market.js?v=2304628026&amp;l=english"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/modalv2.js?v=3357881715&amp;l=english"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/jqplot/jquery.jqplot.js?v=4251115269&amp;l=english"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/jqplot/plugins/jqplot.cursor.js?v=2988476222&amp;l=english"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/jqplot/plugins/jqplot.dateAxisRenderer.js?v=3021017811&amp;l=english"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/jqplot/plugins/jqplot.highlighter.js?v=2073469466&amp;l=english"></script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33779068-1']);
+  _gaq.push(['_setSampleRate', '0.4']);
+  _gaq.push(['_setCustomVar', 1, 'Logged In', 'false', 2]);
+  _gaq.push(['_setCustomVar', 2, 'Client Type', 'External', 2]);
+  _gaq.push(['_setCustomVar', 3, 'Cntrlr', 'market', 3]);
+  _gaq.push(['_setCustomVar', 4, 'Method', "market\/listings", 3]);
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['_setSessionCookieTimeout', 900000]);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+<body>
+<div style="width: 100%; text-align: center">
+<!-- header bar, contains info browsing user if logged in -->
+<div id="global_header">
+	<div class="content">
+	
+		<div class="logo">
+			<span id="logo_holder">
+				<a href="http://store.steampowered.com/">
+					<img src="http://steamcommunity-a.akamaihd.net/public/images/header/globalheader_logo.png" width="176" height="44" border="0" alt="Steam Logo" />
+				</a>
+			</span>
+			<!--[if lt IE 7]>
+			<style type="text/css">
+			#logo_holder img { filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); }
+			#logo_holder { display: inline-block; width: 176px; height: 44px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://steamcommunity-a.akamaihd.net/public/images/header/globalheader_logo.png'); }
+			</style>
+			<![endif]-->
+		</div>
+
+		<div style="position: absolute; left: 200px;" id="supernav">
+	<a class="menuitem supernav" href="http://store.steampowered.com/" data-tooltip-content="
+		<a class=&quot;submenuitem&quot; href=&quot;http://store.steampowered.com/&quot;>Featured</a>
+		<a class=&quot;submenuitem&quot; href=&quot;http://store.steampowered.com/news/&quot;>News</a>
+		<a class=&quot;submenuitem&quot; href=&quot;http://store.steampowered.com/recommended/&quot;>Recommended</a>
+		<a class=&quot;submenuitem&quot; href=&quot;http://steamcommunity.com/my/wishlist/&quot;>Wishlist</a>
+		<a class=&quot;submenuitem&quot; href=&quot;http://store.steampowered.com/stats/&quot;>STATS</a>
+	">
+		STORE	</a>
+
+
+	<a class="menuitem supernav" style="display: block" href="http://steamcommunity.com/" data-tooltip-content="
+					<a class=&quot;submenuitem&quot; href=&quot;http://steamcommunity.com/&quot;>Home</a>
+					<a class=&quot;submenuitem&quot; href=&quot;http://steamcommunity.com/discussions/&quot;>DISCUSSIONS</a>
+					<a class=&quot;submenuitem&quot; href=&quot;http://steamcommunity.com/workshop/&quot;>Workshop</a>
+					<a class=&quot;submenuitem&quot; href=&quot;http://steamcommunity.com/greenlight/&quot;>Greenlight</a>
+					<a class=&quot;submenuitem&quot; href=&quot;http://steamcommunity.com/market/&quot;>Market</a>
+													">
+
+		Community	</a>
+
+	
+
+	
+	<a class="menuitem" href="http://store.steampowered.com/about/">
+		ABOUT	</a>
+
+	<a class="menuitem" href="http://support.steampowered.com/">
+		SUPPORT	</a>
+</div>
+<script type="text/javascript">
+	jQuery(document).ready(function($) { 
+		$('.tooltip').tooltip();
+		$('.supernav').tooltip({'location':'bottom', 'tooltipClass': 'supernav_content', 'offsetY':-4, 'offsetX': 1, 'horizontalSnap': 4, 'tooltipParent': '#supernav', 'correctForScreenSize': false});
+	});
+</script>		<div id="global_actions">
+						<div id="global_action_menu">
+
+				<div class="header_installsteam_btn header_installsteam_btn_green">
+					<div class="header_installsteam_btn_leftcap"></div>
+					<div class="header_installsteam_btn_rightcap"></div>
+					<a class="header_installsteam_btn_content" href="http://store.steampowered.com/about/">
+						Install Steam					</a>
+				</div>
+															<a class="global_action_link" href="https://steamcommunity.com/login/home/?goto=market%2Flistings%2F570%2FSilent+Ripper%2F">Login</a>
+						&nbsp;|&nbsp;
+										<span class="pulldown global_action_link" id="language_pulldown" onclick="ShowMenu( this, 'language_dropdown', 'right' );">language</span>
+					<div class="popup_block" id="language_dropdown" style="display: none;">
+						<div class="shadow_ul"></div><div class="shadow_top"></div><div class="shadow_ur"></div><div class="shadow_left"></div><div class="shadow_right"></div><div class="shadow_bl"></div><div class="shadow_bottom"></div><div class="shadow_br"></div>						<div class="popup_body popup_menu shadow_content">
+																						<a class="popup_menu_item tight" href="?l=bulgarian">Български (Bulgarian)</a>
+																						<a class="popup_menu_item tight" href="?l=czech">čeština (Czech)</a>
+																						<a class="popup_menu_item tight" href="?l=danish">Dansk (Danish)</a>
+																						<a class="popup_menu_item tight" href="?l=dutch">Nederlands (Dutch)</a>
+																														<a class="popup_menu_item tight" href="?l=finnish">Suomi (Finnish)</a>
+																						<a class="popup_menu_item tight" href="?l=french">Français (French)</a>
+																						<a class="popup_menu_item tight" href="?l=german">Deutsch (German)</a>
+																						<a class="popup_menu_item tight" href="?l=greek">Ελληνικά (Greek)</a>
+																						<a class="popup_menu_item tight" href="?l=hungarian">Magyar (Hungarian)</a>
+																						<a class="popup_menu_item tight" href="?l=italian">Italiano (Italian)</a>
+																						<a class="popup_menu_item tight" href="?l=japanese">日本語 (Japanese)</a>
+																						<a class="popup_menu_item tight" href="?l=koreana">한국어 (Korean)</a>
+																						<a class="popup_menu_item tight" href="?l=norwegian">Norsk (Norwegian)</a>
+																						<a class="popup_menu_item tight" href="?l=polish">Polski (Polish)</a>
+																						<a class="popup_menu_item tight" href="?l=portuguese">Português (Portuguese)</a>
+																						<a class="popup_menu_item tight" href="?l=brazilian">Português-Brasil (Portuguese-Brazil)</a>
+																						<a class="popup_menu_item tight" href="?l=romanian">Română (Romanian)</a>
+																						<a class="popup_menu_item tight" href="?l=russian">Русский (Russian)</a>
+																						<a class="popup_menu_item tight" href="?l=schinese">简体中文 (Simplified Chinese)</a>
+																						<a class="popup_menu_item tight" href="?l=spanish">Español (Spanish)</a>
+																						<a class="popup_menu_item tight" href="?l=swedish">Svenska (Swedish)</a>
+																						<a class="popup_menu_item tight" href="?l=tchinese">繁體中文 (Traditional Chinese)</a>
+																						<a class="popup_menu_item tight" href="?l=thai">ไทย (Thai)</a>
+																						<a class="popup_menu_item tight" href="?l=turkish">Türkçe (Turkish)</a>
+																						<a class="popup_menu_item tight" href="?l=ukrainian">Українська (Ukrainian)</a>
+														<a class="popup_menu_item tight" href="http://translation.steampowered.com" target="_blank">Help us translate Steam</a>
+						</div>
+					</div>
+							</div>
+		</div>
+		
+		
+		
+	</div>
+
+</div>
+
+<div id="modalBG" style="display: none"></div>
+<script type="text/javascript">
+	g_sessionID = "MTE3OTE4OTEwNQ==";
+	g_steamID = false;
+	$J( InitMiniprofileHovers );
+	$J( InitEmoticonHovers );
+
+	$J( function() {
+		window.BindCommunityTooltip = function( $Selector ) { $Selector.tooltip( {'tooltipClass': 'community_tooltip', 'dataName': 'communityTooltip' } ); };
+		BindCommunityTooltip( $J('[data-community-tooltip]') );
+	})
+
+	$J( function() { InitEconomyHovers( "<link href=\"http:\/\/steamcommunity-a.akamaihd.net\/public\/css\/skin_1\/economy.css?v=1617814919\" rel=\"stylesheet\" type=\"text\/css\" >\n", "<script type=\"text\/javascript\" src=\"http:\/\/steamcommunity-a.akamaihd.net\/public\/javascript\/economy.js?v=3859021960&amp;l=english\"><\/script>\n" );});</script><!-- /header bar -->
+</div>
+
+<div id="NotLoggedInWarning" class="modal_frame" style="display: none">
+	<div class="modal_box">
+		<div class="notLoggedInText">You need to sign in or create an account to do that.</div>
+		<div class="notLoggedInButtons">
+			<a class="btn_green_white_innerfade btn_small_wide" href="https://steamcommunity.com/login/home/?goto=market%2Flistings%2F570%2FSilent%2520Ripper%2F"><span>Sign In</span></a>
+			<a class="btn_green_white_innerfade btn_small_wide" href="http://store.steampowered.com/join"><span>Create an Account</span></a>
+			<a class="btn_grey_black btn_small" onclick="hideModal( 'NotLoggedInWarning' )"><span>Cancel</span></a>
+			<div style="clear: left"></div>
+		</div>
+	</div>
+</div>
+
+<div class="pagecontent no_header ">
+<!-- top content -->
+<div id="modalContentScrollbarHack" style="display: none"></div>
+
+<div id="modalContent" class="modal_frame" style="display: none">
+	<div id="modalContentTitleBar">
+		<a id="modalContentTitleBarLink" href="" target="_blank">&nbsp;</a>
+		<a id="modalContentTitleBarImageLink" href="" target="_blank"><img src="http://steamcommunity-a.akamaihd.net/public/images/skin_1/ico_external_link.gif" alt=""></a>
+		<div id="modalContentDismiss" class="modalContentDismissImage" onclick="HideModalContent();">
+			<img src="http://steamcommunity-a.akamaihd.net/public/images/x9x9.gif" width="9" height="9" border="0" alt="Close">
+		</div>
+	</div>
+	<div id="modalContentWait"><img src="http://steamcommunity-a.akamaihd.net/public/images/login/throbber.gif" alt="Loading"></div>
+	<div id="modalContentFrameContainer"></div>
+</div><div id="BG_top">
+	<h1 class="market_header_title">
+		<a href="http://steamcommunity.com/market/">
+			<img src="http://steamcommunity-a.akamaihd.net/public/images/economy/market/header/header_en.png" alt="Steam Community Market" />
+		</a>
+	</h1>
+		<div class="market_header_hidden">
+		<p>Buy and sell items with community members for Steam Wallet funds.</p>
+	</div>
+	</div><!-- /top content -->
+<!-- main body -->
+<div id="BG_bottom">
+	<div id="mainContents">
+		<div class="market_listing_nav_container">
+						<div class="market_listing_nav">
+									<a href="http://steamcommunity.com/market/search?appid=570">Dota 2</a>
+					&gt;
+															<a href="http://steamcommunity.com/market/listings/570/Silent%20Ripper">Silent Ripper</a>
+							</div>
+		</div>
+					<div class="market_page_fullwidth market_listing_firstsection">
+				<div class="market_listing_iteminfo">
+                    <div class="market_listing_largeimage">
+        <img src="http://steamcommunity-a.akamaihd.net/economy/image/KOLPkOTvQ7uHLtTve0_s-5CuBSGgn031UupA8N6usQuu5-dp5fcHvDD2nkkAL7hml7QCfv_TDfgZ7Rrx3Kn_Suzl-m_l4h-pHKrCElVupVqKswEh_8JN4l7hMefYtrVX9Nv6bbrmEr4ctcoMV2X_YZzqEzWo0gShBeUM8YC8tVzmvO1l-aYRqiG8zxxUN-gxwLkSY_yAW7hG6gk=/360fx360f" alt="" />
+</div>
+<div id="largeiteminfo">
+    <div class="inventory_iteminfo hover_box" id="largeiteminfo_clienthover">
+        <div class="item_desc_content" id="largeiteminfo_content">
+            <div class="item_desc_icon">
+                <div class="item_desc_icon_center">
+                    <img id="largeiteminfo_item_icon" src="http://steamcommunity-a.akamaihd.net/public/images/trans.gif" alt="" />
+                </div>
+            </div>
+            <div class="item_desc_description">
+                <h1 class="hover_item_name" id="largeiteminfo_item_name"></h1>
+                <div class="fraud_warning" id="largeiteminfo_fraud_warnings"></div>
+                <div class="item_desc_game_info" id="largeiteminfo_game_info">
+                    <div class="item_desc_game_icon">
+                        <img id="largeiteminfo_game_icon" src="http://steamcommunity-a.akamaihd.net/public/images/trans.gif" alt="" />
+                    </div>
+                    <div id="largeiteminfo_game_name" class="ellipsis"></div>
+                    <div id="largeiteminfo_item_type" class=""></div>
+                </div>
+                <div class="item_desc_descriptors" id="largeiteminfo_item_descriptors">
+                </div>
+                <div class="item_actions" id="largeiteminfo_item_actions">
+                </div>
+                <div class="item_desc_descriptors" id="largeiteminfo_item_owner_descriptors">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+					<div style="clear: both"></div>
+					<div id="largeiteminfo_warning">
+						<br/>
+						The appearance of items in the individual listings may vary slightly from the one above. For example, items could have custom names, descriptions, or colors.					</div>
+					<hr style="background-color: #333; border-style: solid none none; border-color: black; border-width: 1px 0 0; height: 2px">
+											<div id="pricehistory"></div>
+						<br>
+						<div class="zoom_controls pricehistory_zoom_controls">
+							Zoom graph:							<a class="zoomopt" onclick="return pricehistory_zoomDays( g_plotPriceHistory, g_timePriceHistoryEarliest, g_timePriceHistoryLatest, 7 );" href="javascript:void(0)">Week</a>
+							<a class="zoomopt" onclick="return pricehistory_zoomDays( g_plotPriceHistory, g_timePriceHistoryEarliest, g_timePriceHistoryLatest, 30 );" href="javascript:void(0)">Month</a>
+							<a class="zoomopt" onclick="return pricehistory_zoomLifetime( g_plotPriceHistory, g_timePriceHistoryEarliest, g_timePriceHistoryLatest );" href="javascript:void(0)" style="padding-right: 0">Lifetime</a>
+						</div>
+										<div style="clear: both"></div>
+				</div>
+			</div>
+			<div id="listings" class="market_page_fullwidth" style="padding-top: 0">
+				<div class="market_listing_filter">
+	<div class="market_listing_filter_contents">
+		<form id="market_listing_filter_form" accept-charset="UTF8" action="http://steamcommunity.com/market/listings/570/Silent%20Ripper" method="GET" >
+					<span class="market_listing_filter_searchhint">
+									Looking for a specific item?							</span>
+			<span style="position: relative; display: inline-block;">
+									<input class="filter_search_box market_search_filter_search_box" type="text" id="market_listing_filter_search_box" value="" placeholder="Search name, description, type" name="filter" autocomplete="off" />
+								<input class="market_search_submit_button" id="market_listing_filter_submit" type="submit" value="Submit" />
+			</span>
+		</form>
+	</div>
+</div>				<div class="market_large_tab_well">
+					<h2 class="market_section_title">
+						Listings					</h2>
+					<div class="market_large_tab_well_gradient selectableNone"></div>
+					<div class="market_tab_well_tabs">
+					</div>
+					<div class="market_section_header_cap selectableNone"></div>
+				</div>
+				<div id="searchResultsTable" class="market_content_block market_home_listing_table market_home_main_listing_table market_listing_table">
+					<div id="searchResultsRows">
+						<div class="market_listing_table_header">
+	<span class="market_listing_right_cell market_listing_action_buttons"></span>
+	<span class="market_listing_right_cell market_listing_their_price">PRICE</span>
+	<span class="market_listing_right_cell market_listing_seller">SELLER</span>
+	<div><span class="market_listing_header_namespacer"></span>NAME</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_2810558695031416416" id="listing_2810558695031416416">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_2810558695031416416_image" src="http://steamcommunity-a.akamaihd.net/economy/image/s-MY66VXvX7-W7PQCiUu4wuv0lrhJ7MwK58nz6_EcxM15jASpE_5eUmD-XZxRXp-DLXVBb5r8z1gmH3OrcM9UnfkLRSkWuFsZd-lLSQEZ0IRstZavnqzJyeUVtip3HdPb9otFvte7HsUyfl3cw8hKQLsnhu4Pq1lK8g8mvOFI0V9tGdI70-_PQqZ_3lzD3EqW_XWRLw=/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="" />	</div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '2810558695031416416', 570, '2', '3372963035')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span class="market_table_value">
+											<span class="market_listing_price market_listing_price_with_fee">
+					6,09&#8364; 				</span>
+				<span class="market_listing_price market_listing_price_without_fee">
+					5,30&#8364; 				</span>
+						<br/>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar in-game" >
+				<a href="http://steamcommunity.com/profiles/76561198002017969" >
+					<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/43/43beee7f72e1e35a9056a91d99787733e66363ae.jpg" alt="" data-miniprofile="41752241">
+				</a>
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_2810558695031416416_name" class="market_listing_item_name" style="color: #D2D2D2;">The Silent Ripper</span>
+		<br/>
+		<span class="market_listing_game_name">Dota 2</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_2828573093335271194" id="listing_2828573093335271194">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_2828573093335271194_image" src="http://steamcommunity-a.akamaihd.net/economy/image/s-MY66VXvX7-W7PQCiUu4wuv0lrhJ7MwK58nz6_EcxM15jASpE_5eUmD-XZxRXp-DLXVBb5r8z1gmH3OrcM9UnfkLRSkWuFsZd-lLSQEZ0IRstZavnqzJyeUVtip3HdPb9otFvte7HsUyfl3cw8hKQLsnhu4Pq1lK8g8mvOFI0V9tGdI70-_PQqZ_3lzD3EqW_XWRLw=/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="" />	</div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '2828573093335271194', 570, '2', '3363766371')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span class="market_table_value">
+											<span class="market_listing_price market_listing_price_with_fee">
+					6,10&#8364; 				</span>
+				<span class="market_listing_price market_listing_price_without_fee">
+					5,31&#8364; 				</span>
+						<br/>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar offline" >
+				<a href="http://steamcommunity.com/profiles/76561198047392277" >
+					<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/fe/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb.jpg" alt="" data-miniprofile="87126549">
+				</a>
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_2828573093335271194_name" class="market_listing_item_name" style="color: #D2D2D2;">The Silent Ripper</span>
+		<br/>
+		<span class="market_listing_game_name">Dota 2</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_2830824893142621292" id="listing_2830824893142621292">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_2830824893142621292_image" src="http://steamcommunity-a.akamaihd.net/economy/image/s-MY66VXvX7-W7PQCiUu4wuv0lrhJ7MwK58nz6_EcxM15jASpE_5eUmD-XZxRXp-DLXVBb5r8z1gmH3OrcM9UnfkLRSkWuFsZd-lLSQEZ0IRstZavnqzJyeUVtip3HdPb9otFvte7HsUyfl3cw8hKQLsnhu4Pq1lK8g8mvOFI0V9tGdI70-_PQqZ_3lzD3EqW_XWRLw=/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="" />	</div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '2830824893142621292', 570, '2', '3362062711')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span class="market_table_value">
+											<span class="market_listing_price market_listing_price_with_fee">
+					&#36;8.28				</span>
+				<span class="market_listing_price market_listing_price_without_fee">
+					&#36;7.20				</span>
+						<br/>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar offline" >
+				<a href="http://steamcommunity.com/profiles/76561198093479615" >
+					<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/44/44b4be282092b1e70283e4ce867590327400d98e.jpg" alt="" data-miniprofile="133213887">
+				</a>
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_2830824893142621292_name" class="market_listing_item_name" style="color: #D2D2D2;">The Silent Ripper</span>
+		<br/>
+		<span class="market_listing_game_name">Dota 2</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_2829698993245365638" id="listing_2829698993245365638">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_2829698993245365638_image" src="http://steamcommunity-a.akamaihd.net/economy/image/s-MY66VXvX7-W7PQCiUu4wuv0lrhJ7MwK58nz6_EcxM15jASpE_5eUmD-XZxRXp-DLXVBb5r8z1gmH3OrcM9UnfkLRSkWuFsZd-lLSQEZ0IRstZavnqzJyeUVtip3HdPb9otFvte7HsUyfl3cw8hKQLsnhu4Pq1lK8g8mvOFI0V9tGdI70-_PQqZ_3lzD3EqW_XWRLw=/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="" />	</div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '2829698993245365638', 570, '2', '3361828801')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span class="market_table_value">
+											<span class="market_listing_price market_listing_price_with_fee">
+					&#36;8.30				</span>
+				<span class="market_listing_price market_listing_price_without_fee">
+					&#36;7.22				</span>
+						<br/>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar online" >
+				<a href="http://steamcommunity.com/id/deathnarok" >
+					<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/04/04f4013da43425781e1e3e0ebb14e39c89c253d1.jpg" alt="" data-miniprofile="83537523">
+				</a>
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_2829698993245365638_name" class="market_listing_item_name" style="color: #D2D2D2;">The Silent Ripper</span>
+		<br/>
+		<span class="market_listing_game_name">Dota 2</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_2830824893155625802" id="listing_2830824893155625802">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_2830824893155625802_image" src="http://steamcommunity-a.akamaihd.net/economy/image/s-MY66VXvX7-W7PQCiUu4wuv0lrhJ7MwK58nz6_EcxM15jASpE_5eUmD-XZxRXp-DLXVBb5r8z1gmH3OrcM9UnfkLRSkWuFsZd-lLSQEZ0IRstZavnqzJyeUVtip3HdPb9otFvte7HsUyfl3cw8hKQLsnhu4Pq1lK8g8mvOFI0V9tGdI70-_PQqZ_3lzD3EqW_XWRLw=/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="" />	</div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '2830824893155625802', 570, '2', '3144545913')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span class="market_table_value">
+											<span class="market_listing_price market_listing_price_with_fee">
+					287,50 p&#1091;&#1073;.				</span>
+				<span class="market_listing_price market_listing_price_without_fee">
+					250 p&#1091;&#1073;.				</span>
+						<br/>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar offline" >
+				<a href="http://steamcommunity.com/profiles/76561198090784525" >
+					<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/e1/e1a990073684f41923ab5f65619571aff3d8d556.jpg" alt="" data-miniprofile="130518797">
+				</a>
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_2830824893155625802_name" class="market_listing_item_name" style="color: #D2D2D2;">The Silent Ripper</span>
+		<br/>
+		<span class="market_listing_game_name">Dota 2</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_2810558694904024156" id="listing_2810558694904024156">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_2810558694904024156_image" src="http://steamcommunity-a.akamaihd.net/economy/image/s-MY66VXvX7-W7PQCiUu4wuv0lrhJ7MwK58nz6_EcxM15jASpE_5eUmD-XZxRXp-DLXVBb5r8z1gmH3OrcM9UnfkLRSkWuFsZd-lLSQEZ0IRstZavnqzJyeUVtip3HdPb9otFvte7HsUyfl3cw8hKQLsnhu4Pq1lK8g8mvOFI0V9tGdI70-_PQqZ_3lzD3EqW_XWRLw=/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="" />	</div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '2810558694904024156', 570, '2', '3348646158')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span class="market_table_value">
+											<span class="market_listing_price market_listing_price_with_fee">
+					6,17&#8364; 				</span>
+				<span class="market_listing_price market_listing_price_without_fee">
+					5,38&#8364; 				</span>
+						<br/>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar in-game" >
+				<a href="http://steamcommunity.com/profiles/76561198002017969" >
+					<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/43/43beee7f72e1e35a9056a91d99787733e66363ae.jpg" alt="" data-miniprofile="41752241">
+				</a>
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_2810558694904024156_name" class="market_listing_item_name" style="color: #D2D2D2;">The Silent Ripper</span>
+		<br/>
+		<span class="market_listing_game_name">Dota 2</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_2810558694753039761" id="listing_2810558694753039761">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_2810558694753039761_image" src="http://steamcommunity-a.akamaihd.net/economy/image/s-MY66VXvX7-W7PQCiUu4wuv0lrhJ7MwK58nz6_EcxM15jASpE_5eUmD-XZxRXp-DLXVBb5r8z1gmH3OrcM9UnfkLRSkWuFsZd-lLSQEZ0IRstZavnqzJyeUVtip3HdPb9otFvte7HsUyfl3cw8hKQLsnhu4Pq1lK8g8mvOFI0V9tGdI70-_PQqZ_3lzD3EqW_XWRLw=/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="" />	</div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '2810558694753039761', 570, '2', '3092155974')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span class="market_table_value">
+											<span class="market_listing_price market_listing_price_with_fee">
+					289 p&#1091;&#1073;.				</span>
+				<span class="market_listing_price market_listing_price_without_fee">
+					251,31 p&#1091;&#1073;.				</span>
+						<br/>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar offline" >
+				<a href="http://steamcommunity.com/id/Rikliv" >
+					<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/3f/3f986021baa0ed244100260fc43cd50fee25e070.jpg" alt="" data-miniprofile="94668471">
+				</a>
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_2810558694753039761_name" class="market_listing_item_name" style="color: #D2D2D2;">The Silent Ripper</span>
+		<br/>
+		<span class="market_listing_game_name">Dota 2</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_2829698993068986343" id="listing_2829698993068986343">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_2829698993068986343_image" src="http://steamcommunity-a.akamaihd.net/economy/image/s-MY66VXvX7-W7PQCiUu4wuv0lrhJ7MwK58nz6_EcxM15jASpE_5eUmD-XZxRXp-DLXVBb5r8z1gmH3OrcM9UnfkLRSkWuFsZd-lLSQEZ0IRstZavnqzJyeUVtip3HdPb9otFvte7HsUyfl3cw8hKQLsnhu4Pq1lK8g8mvOFI0V9tGdI70-_PQqZ_3lzD3EqW_XWRLw=/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="" />	</div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '2829698993068986343', 570, '2', '3322408830')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span class="market_table_value">
+											<span class="market_listing_price market_listing_price_with_fee">
+					&#36;8.48				</span>
+				<span class="market_listing_price market_listing_price_without_fee">
+					&#36;7.39				</span>
+						<br/>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar offline" >
+				<a href="http://steamcommunity.com/profiles/76561198083163536" >
+					<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/8e/8e6d2ff5ad3cad56560ceedb1e91b730edaf8097.jpg" alt="" data-miniprofile="122897808">
+				</a>
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_2829698993068986343_name" class="market_listing_item_name" style="color: #D2D2D2;">The Silent Ripper</span>
+		<br/>
+		<span class="market_listing_game_name">Dota 2</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_2828572376664206979" id="listing_2828572376664206979">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_2828572376664206979_image" src="http://steamcommunity-a.akamaihd.net/economy/image/s-MY66VXvX7-W7PQCiUu4wuv0lrhJ7MwK58nz6_EcxM15jASpE_5eUmD-XZxRXp-DLXVBb5r8z1gmH3OrcM9UnfkLRSkWuFsZd-lLSQEZ0IRstZavnqzJyeUVtip3HdPb9otFvte7HsUyfl3cw8hKQLsnhu4Pq1lK8g8mvOFI0V9tGdI70-_PQqZ_3lzD3EqW_XWRLw=/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="" />	</div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '2828572376664206979', 570, '2', '3205300174')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span class="market_table_value">
+											<span class="market_listing_price market_listing_price_with_fee">
+					&#82;&#36; 19,98				</span>
+				<span class="market_listing_price market_listing_price_without_fee">
+					&#82;&#36; 17,39				</span>
+						<br/>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar offline" >
+				<a href="http://steamcommunity.com/id/thabz" >
+					<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/6c/6cc00a9c375ebeaed54e4ce3706ab1a5fcb0d875.jpg" alt="" data-miniprofile="64942079">
+				</a>
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_2828572376664206979_name" class="market_listing_item_name" style="color: #D2D2D2;">The Silent Ripper</span>
+		<br/>
+		<span class="market_listing_game_name">Dota 2</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_2829698993019924453" id="listing_2829698993019924453">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_2829698993019924453_image" src="http://steamcommunity-a.akamaihd.net/economy/image/s-MY66VXvX7-W7PQCiUu4wuv0lrhJ7MwK58nz6_EcxM15jASpE_5eUmD-XZxRXp-DLXVBb5r8z1gmH3OrcM9UnfkLRSkWuFsZd-lLSQEZ0IRstZavnqzJyeUVtip3HdPb9otFvte7HsUyfl3cw8hKQLsnhu4Pq1lK8g8mvOFI0V9tGdI70-_PQqZ_3lzD3EqW_XWRLw=/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="" />	</div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '2829698993019924453', 570, '2', '3041229348')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span class="market_table_value">
+											<span class="market_listing_price market_listing_price_with_fee">
+					&#36;8.97				</span>
+				<span class="market_listing_price market_listing_price_without_fee">
+					&#36;7.80				</span>
+						<br/>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar in-game" >
+				<a href="http://steamcommunity.com/profiles/76561198081517216" >
+					<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/5c/5cec750fb999202666dd62d572beee18cfc3787b.jpg" alt="" data-miniprofile="121251488">
+				</a>
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_2829698993019924453_name" class="market_listing_item_name" style="color: #D2D2D2;">The Silent Ripper</span>
+		<br/>
+		<span class="market_listing_game_name">Dota 2</span>
+	</div>
+</div>
+					</div>
+							<div id="searchResults_ctn" class="market_paging" style="">
+			<div class="market_paging_summary">
+				Showing <span id="searchResults_start">1</span>-<span id="searchResults_end">10</span> of <span id="searchResults_total">90</span> results			</div>
+			<div class="market_paging_controls" id="searchResults_controls">
+				<span id="searchResults_btn_prev" class="pagebtn">&lt;</span>
+				<span id="searchResults_links"></span>
+				<span id="searchResults_btn_next" class="pagebtn">&gt;</span>
+			</div>
+			<div style="clear: both;"></div>
+		</div>
+					</div>
+			</div>
+				<div style="clear:both"></div>
+	</div>
+
+	<div id="hover" style="display: none;">
+		<div class="shadow_ul"></div><div class="shadow_top"></div><div class="shadow_ur"></div><div class="shadow_left"></div><div class="shadow_right"></div><div class="shadow_bl"></div><div class="shadow_bottom"></div><div class="shadow_br"></div>		<div class="inventory_iteminfo hover_box shadow_content" id="iteminfo_clienthover">
+			<div class="item_desc_content" id="hover_content">
+				<div class="item_desc_icon">
+					<div class="item_desc_icon_center">
+						<img id="hover_item_icon" src="http://steamcommunity-a.akamaihd.net/public/images/trans.gif" alt="" />
+					</div>
+				</div>
+				<div class="item_desc_description">
+					<h1 class="hover_item_name" id="hover_item_name"></h1>
+					<div class="fraud_warning" id="hover_fraud_warnings"></div>
+					<div class="item_desc_game_info" id="hover_game_info">
+						<div class="item_desc_game_icon">
+							<img id="hover_game_icon" src="http://steamcommunity-a.akamaihd.net/public/images/trans.gif" alt="" />
+						</div>
+						<div id="hover_game_name" class="ellipsis"></div>
+						<div id="hover_item_type" class=""></div>
+					</div>
+					<div class="item_desc_descriptors" id="hover_item_descriptors">
+					</div>
+					<div class="item_desc_descriptors" id="hover_item_owner_descriptors">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="hover_arrow_left" id="hover_arrow_left">
+			<div class="hover_arrow_inner"></div>
+		</div>
+		<div class="hover_arrow_right" id="hover_arrow_right">
+			<div class="hover_arrow_inner"></div>
+		</div>
+	</div>
+</div></div>
+<div id="market_buynow_dialog" class="market_modal_dialog" style="display: none;">
+	<div class="market_dialog_title">
+		<span id="market_buynow_dialog_title">
+			Buy an item		</span>
+		<span class="market_dialog_cancel">
+			<a id="market_buynow_dialog_cancel" href="#" class="market_dialog_title_cancel">Cancel<span class="market_dialog_title_cancel_X">X</span></a>
+			<a id="market_buynow_dialog_cancel_close" href="#" class="market_dialog_title_cancel" style="display: none">Close<span class="market_dialog_title_cancel_X">X</span></a>
+		</span>
+	</div>
+	<div id="market_buynow_dialog_contents" class="market_dialog_contents">
+		<div id="market_buynow_dialog_purchasecomplete_message">
+			<div class="market_dialog_topinfo">
+				Congratulations on your purchase! You can view your new item in your <a href="http://steamcommunity.com/my/inventory/">inventory</a>.			</div>
+			<div class="market_dialog_content_spacer">
+			</div>
+		</div>
+		<div id="market_buynow_dialog_item">
+		</div>
+		<div class="market_dialog_content_spacer">
+		</div>
+		<div id="market_buynow_dialog_totals" class="market_dialog_totals">
+			<div>
+				<span id="market_buynow_dialog_totals_subtotal" class="market_dialog_totals_cost">&nbsp;</span>
+				<span class="market_dialog_totals_label">Subtotal:</span>
+			</div>
+			<div style="clear: both"></div>
+			<br/>
+			<div>
+				<span id="market_buynow_dialog_totals_publisherfee" class="market_dialog_totals_cost">&nbsp;</span>
+				<span class="market_dialog_totals_label"><span id="market_buynow_dialog_totals_publisherfee_gamename"></span> fee (<span id="market_buynow_dialog_totals_publisherfee_percent"></span>%):</span>
+			</div>
+			<div style="clear: both"></div>
+			<div>
+				<span id="market_buynow_dialog_totals_transactionfee" class="market_dialog_totals_cost">&nbsp;</span>
+				<span class="market_dialog_totals_label">Steam transaction fee (<span id="market_buynow_dialog_totals_transactionfee_percent"></span>%):</span>
+			</div>
+			<div>
+				<span class="market_dialog_totals_cost">&nbsp;</span>
+				<span class="market_dialog_totals_label market_buynow_dialog_totals_fee_collector">
+											Fees charged by Valve Corporation									</span>
+			</div>
+			<div style="clear: both"></div>
+			<div class="market_dialog_totals_separator"></div>
+			<div>
+				<span id="market_buynow_dialog_totals_total" class="market_dialog_totals_cost">&nbsp;</span>
+				<span class="market_dialog_totals_label">Total:</span>
+			</div>
+			<div style="clear: both"></div>
+		</div>
+		<div style="clear:both"></div>
+		<div class="market_dialog_content_spacer">
+		</div>
+		<div id="market_buynow_dialog_paymentinfo_frame_container">
+			<div id="market_buynow_dialog_paymentinfo_frame" class="market_dialog_content_frame">
+				<div id="market_buynow_dialog_paymentinfo" class="market_dialog_content market_dialog_content_darker">
+					<div id="market_buynow_dialog_purchase_throbber" style="display: none;">
+						<img src="http://steamcommunity-a.akamaihd.net/public/images/login/throbber.gif" alt="Working...">
+					</div>
+					<a id="market_buynow_dialog_purchase" href="#" class="btn_green_white_innerfade btn_medium_wide btn_uppercase"><span>Purchase</span></a>
+					<a id="market_buynow_dialog_addfunds" href="#" class="btn_green_white_innerfade btn_medium_wide btn_uppercase" style="display: none"><span>Add Funds</span></a>
+					<div>
+						<div id="market_buynow_dialog_paymentinfo_option_labels">
+							<span>Payment method:</span>
+							<br/>
+							<br/>
+							<span>Steam account:</span>
+						</div>
+						<div>
+							<span id="market_buynow_dialog_paymentmethod">My Steam Wallet <span id="market_buynow_dialog_walletbalance">(<span id="market_buynow_dialog_walletbalance_amount"></span>)</span></span>
+							<br/>
+							<br/>
+							<span id="market_buynow_dialog_myaccountname"></span>
+						</div>
+					</div>
+					<div id="market_buynow_dialog_accept_ssa_container">
+						<br/>
+						<input id="market_buynow_dialog_accept_ssa" type="checkbox" value="0" name="accept_ssa">
+						<label id="market_buynow_dialog_accept_ssa_label" for="market_buynow_dialog_accept_ssa">I agree to the terms of the <a href="javascript:SSAPopup();" class="body_link" >Steam Subscriber Agreement</a> (last updated Jul 3, 2013.)</label>
+					</div>
+										<div style="clear: both"></div>
+				</div>
+			</div>
+		</div>
+		<div id="market_buynow_dialog_bottom_buttons" style="display: none">
+			<div class="market_dialog_bottom_buttons">
+				<a id="market_buynow_dialog_close" href="#" class="btn_grey_white_innerfade btn_medium_wide"><span>Close</span></a>
+				<a id="market_buynow_dialog_viewinventory" href="http://steamcommunity.com/my/inventory/" class="btn_grey_white_innerfade btn_medium_wide"><span>View Inventory</span></a>
+				<div style="clear: both"></div>
+			</div>
+		</div>
+		<div id="market_buynow_dialog_error">
+			<br/>
+			<span id="market_buynow_dialog_error_text"></span>
+		</div>
+	</div>
+</div>
+
+<div id="market_removelisting_dialog" class="market_modal_dialog" style="display: none;">
+	<div class="market_dialog_title">
+		<span id="market_removelisting_dialog_title">
+			Remove a listing		</span>
+		<span class="market_dialog_cancel">
+			<a id="market_removelisting_dialog_cancel" href="#" class="market_dialog_title_cancel">Cancel<span class="market_dialog_title_cancel_X">X</span></a>
+		</span>
+	</div>
+	<div id="market_removelisting_dialog_contents" class="market_dialog_contents">
+		<div id="market_removelisting_dialog_confirmation">
+			<div>
+				Remove the listing for <span id="market_removelisting_dialog_itemname"></span> and return the item to your inventory?			</div>
+			<br/>
+			<div id="market_removelisting_dialog_buttons">
+				<div id="market_removelisting_dialog_accept_throbber" style="display: none;">
+					<img src="http://steamcommunity-a.akamaihd.net/public/images/login/throbber.gif" alt="Working...">
+				</div>
+				<a id="market_removelisting_dialog_accept" href="#" class="btn_green_white_innerfade btn_medium_wide"><span>Remove Listing</span></a>
+				<div style="clear: both"></div>
+			</div>
+		</div>
+		<div id="market_removelisting_dialog_error">
+		</div>
+	</div>
+</div><div id="market_removelisting_dialog" class="market_modal_dialog" style="display: none;">
+	<div class="market_dialog_title">
+		<span id="market_removelisting_dialog_title">
+			Remove a listing		</span>
+		<span class="market_dialog_cancel">
+			<a id="market_removelisting_dialog_cancel" href="#" class="market_dialog_title_cancel">Cancel<span class="market_dialog_title_cancel_X">X</span></a>
+		</span>
+	</div>
+	<div id="market_removelisting_dialog_contents" class="market_dialog_contents">
+		<div id="market_removelisting_dialog_confirmation">
+			<div>
+				Remove the listing for <span id="market_removelisting_dialog_itemname"></span> and return the item to your inventory?			</div>
+			<br/>
+			<div id="market_removelisting_dialog_buttons">
+				<div id="market_removelisting_dialog_accept_throbber" style="display: none;">
+					<img src="http://steamcommunity-a.akamaihd.net/public/images/login/throbber.gif" alt="Working...">
+				</div>
+				<a id="market_removelisting_dialog_accept" href="#" class="btn_green_white_innerfade btn_medium_wide"><span>Remove Listing</span></a>
+				<div style="clear: both"></div>
+			</div>
+		</div>
+		<div id="market_removelisting_dialog_error">
+		</div>
+	</div>
+</div>
+<div id="market_action_popup" class="popup_block_new" style="display: none;">
+	<div class="popup_body popup_menu">
+		<div id="market_action_popup_itemactions">
+		</div>
+	</div>
+</div>
+
+<!-- footer -->
+	<div id="footer_spacer"></div>
+	<div id="footer">
+		<div class="footer_content">
+			<span id="footerLogo"><img src="http://steamcommunity-a.akamaihd.net/public/images/skin_1/footerLogo_valve.png" width="96" height="26" border="0" alt="Valve Logo" /></span>
+			<span id="footerText">
+				&copy; Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.<br/>Some geospatial data on this website is provided by <a href="https://steamcommunity.com/linkfilter/http://www.geonames.org" target="_blank">geonames.org</a>.				<br>
+				<span class="valve_links">
+					<a href="http://store.steampowered.com/privacy_agreement/" target="_blank">Privacy Policy</a> | <a href="http://www.valvesoftware.com/legal.htm" target="_blank">Legal</a> | <a href="http://store.steampowered.com/subscriber_agreement/" target="_blank">Steam Subscriber Agreement</a>
+				</span>
+							
+							</span>
+		</div>
+	</div>
+
+	<!-- /footer -->
+
+<script type="text/javascript">
+var g_bLoggedIn = false;
+var g_strCountryCode = "US";
+var g_strLanguage = "english";
+
+g_bModalModifyAnchorTargets = false;
+g_bModalCacheContent = false;
+</script>
+	<script type="text/javascript">
+		var g_rgAppContextData = {"570":{"appid":570,"name":"Dota 2","icon":"http:\/\/cdn.akamai.steamstatic.com\/steamcommunity\/public\/images\/apps\/570\/0bbb630d63262dd66d2fdd0f7d37e8661a410075.jpg","link":"http:\/\/steamcommunity.com\/app\/570"}};
+		var g_rgAssets = {"570":{"2":{"3372963035":{"currency":0,"appid":570,"contextid":"2","id":"3372963035","classid":"129965340","instanceid":"231789014","amount":"1","status":2,"background_color":"","icon_url":"s-MY66VXvX7-W7PQCiUu4wuv0lrhJ7MwK58nz6_EcxM15jASpE_5eUmD-XZxRXp-DLXVBb5r8z1gmH3OrcM9UnfkLRSkWuFsZd-lLSQEZ0IRstZavnqzJyeUVtip3HdPb9otFvte7HsUyfl3cw8hKQLsnhu4Pq1lK8g8mvOFI0V9tGdI70-_PQqZ_3lzD3EqW_XWRLw=","icon_url_large":"KOLPkOTvQ7uHLtTve0_s-5CuBSGgn031UupA8N6usQuu5-dp5fcHvDD2nkkAL7hml7QCfv_TDfgZ7Rrx3Kn_Suzl-m_l4h-pHKrCElVupVqKswEh_8JN4l7hMefYtrVX9Nv6bbrmEr4ctcoMV2X_YZzqEzWo0gShBeUM8YC8tVzmvO1l-aYRqiG8zxxUN-gxwLkSY_yAW7hG6gk=","descriptions":[{"type":"html","value":"Perfect for sliding through the bars of a cell, for a silent shiv in the dark. Just don't ask where he hides it."},{"type":"html","value":"<div style=\"white-space: nowrap; margin: 10px\"><div style=\"white-space: nowrap; padding: 3px;\"><div style=\"width: 60px; height: 32px; vertical-align: top; display: inline-block;\"><div style=\"position: relative; width: 48px; height: 32px; vertical-align: top; display: inline-block; border: 2px solid rgb(255, 255, 255);>\"><div style=\"position: absolute; width: 48px; height: 32px; vertical-align: top; display: inline-block; background-size: contain; background-image: url()\"><\/div><\/div><\/div><div style=\"vertical-align: top; display: inline-block; margin-left: 12px padding: 2px\"><span style=\"font-size: 18px; color: rgb(255, 255, 255)\">Empty Socket<\/span><br><span style=\"font-size: 12px\">General<\/span><\/div><\/div><div style=\"white-space: nowrap; padding: 3px;\"><div style=\"width: 60px; height: 32px; vertical-align: top; display: inline-block;\"><div style=\"position: relative; width: 48px; height: 32px; vertical-align: top; display: inline-block; border: 2px solid rgb(255, 255, 255);>\"><div style=\"position: absolute; width: 48px; height: 32px; vertical-align: top; display: inline-block; background-size: contain; background-image: url()\"><\/div><\/div><\/div><div style=\"vertical-align: top; display: inline-block; margin-left: 12px padding: 2px\"><span style=\"font-size: 18px; color: rgb(255, 255, 255)\">Empty Socket<\/span><br><span style=\"font-size: 12px\">General<\/span><\/div><\/div><div style=\"white-space: nowrap; padding: 3px;\"><div style=\"width: 60px; height: 32px; vertical-align: top; display: inline-block;\"><div style=\"position: relative; width: 48px; height: 32px; vertical-align: top; display: inline-block; border: 2px solid rgb(255, 255, 255);>\"><div style=\"position: absolute; width: 48px; height: 32px; vertical-align: top; display: inline-block; background-size: contain; background-image: url()\"><\/div><\/div><\/div><div style=\"vertical-align: top; display: inline-block; margin-left: 12px padding: 2px\"><span style=\"font-size: 18px; color: rgb(255, 255, 255)\">Empty Socket<\/span><br><span style=\"font-size: 12px\">General<\/span><\/div><\/div><\/div>"}],"tradable":1,"name":"The Silent Ripper","name_color":"D2D2D2","type":"Mythical Dagger","market_name":"Silent Ripper","market_hash_name":"Silent Ripper","commodity":0,"owner":"76561198002017969"},"3363766371":{"currency":0,"appid":570,"contextid":"2","id":"3363766371","classid":"129965340","instanceid":"253208385","amount":"1","status":2,"background_color":"","icon_url":"s-MY66VXvX7-W7PQCiUu4wuv0lrhJ7MwK58nz6_EcxM15jASpE_5eUmD-XZxRXp-DLXVBb5r8z1gmH3OrcM9UnfkLRSkWuFsZd-lLSQEZ0IRstZavnqzJyeUVtip3HdPb9otFvte7HsUyfl3cw8hKQLsnhu4Pq1lK8g8mvOFI0V9tGdI70-_PQqZ_3lzD3EqW_XWRLw=","icon_url_large":"KOLPkOTvQ7uHLtTve0_s-5CuBSGgn031UupA8N6usQuu5-dp5fcHvDD2nkkAL7hml7QCfv_TDfgZ7Rrx3Kn_Suzl-m_l4h-pHKrCElVupVqKswEh_8JN4l7hMefYtrVX9Nv6bbrmEr4ctcoMV2X_YZzqEzWo0gShBeUM8YC8tVzmvO1l-aYRqiG8zxxUN-gxwLkSY_yAW7hG6gk=","descriptions":[{"type":"html","value":"Perfect for sliding through the bars of a cell, for a silent shiv in the dark. Just don't ask where he hides it."},{"type":"html","value":"<div style=\"white-space: nowrap; margin: 10px\"><div style=\"white-space: nowrap; padding: 3px;\"><div style=\"width: 60px; height: 32px; vertical-align: top; display: inline-block;\"><div style=\"position: relative; width: 48px; height: 32px; vertical-align: top; display: inline-block; border: 2px solid rgb(255, 255, 255);>\"><div style=\"position: absolute; width: 48px; height: 32px; vertical-align: top; display: inline-block; background-size: contain; background-image: url()\"><\/div><\/div><\/div><div style=\"vertical-align: top; display: inline-block; margin-left: 12px padding: 2px\"><span style=\"font-size: 18px; color: rgb(255, 255, 255)\">Empty Socket<\/span><br><span style=\"font-size: 12px\">General<\/span><\/div><\/div><div style=\"white-space: nowrap; padding: 3px;\"><div style=\"width: 60px; height: 32px; vertical-align: top; display: inline-block;\"><div style=\"position: relative; width: 48px; height: 32px; vertical-align: top; display: inline-block; border: 2px solid rgb(255, 255, 255);>\"><div style=\"position: absolute; width: 48px; height: 32px; vertical-align: top; display: inline-block; background-size: contain; background-image: url()\"><\/div><\/div><\/div><div style=\"vertical-align: top; display: inline-block; margin-left: 12px padding: 2px\"><span style=\"font-size: 18px; color: rgb(255, 255, 255)\">Empty Socket<\/span><br><span style=\"font-size: 12px\">General<\/span><\/div><\/div><\/div>"}],"tradable":1,"name":"The Silent Ripper","name_color":"D2D2D2","type":"Mythical Dagger","market_name":"Silent Ripper","market_hash_name":"Silent Ripper","commodity":0,"owner":"76561198047392277"},"3362062711":{"currency":0,"appid":570,"contextid":"2","id":"3362062711","classid":"129965340","instanceid":"231789014","amount":"1","status":2,"background_color":"","icon_url":"s-MY66VXvX7-W7PQCiUu4wuv0lrhJ7MwK58nz6_EcxM15jASpE_5eUmD-XZxRXp-DLXVBb5r8z1gmH3OrcM9UnfkLRSkWuFsZd-lLSQEZ0IRstZavnqzJyeUVtip3HdPb9otFvte7HsUyfl3cw8hKQLsnhu4Pq1lK8g8mvOFI0V9tGdI70-_PQqZ_3lzD3EqW_XWRLw=","icon_url_large":"KOLPkOTvQ7uHLtTve0_s-5CuBSGgn031UupA8N6usQuu5-dp5fcHvDD2nkkAL7hml7QCfv_TDfgZ7Rrx3Kn_Suzl-m_l4h-pHKrCElVupVqKswEh_8JN4l7hMefYtrVX9Nv6bbrmEr4ctcoMV2X_YZzqEzWo0gShBeUM8YC8tVzmvO1l-aYRqiG8zxxUN-gxwLkSY_yAW7hG6gk=","descriptions":[{"type":"html","value":"Perfect for sliding through the bars of a cell, for a silent shiv in the dark. Just don't ask where he hides it."},{"type":"html","value":"<div style=\"white-space: nowrap; margin: 10px\"><div style=\"white-space: nowrap; padding: 3px;\"><div style=\"width: 60px; height: 32px; vertical-align: top; display: inline-block;\"><div style=\"position: relative; width: 48px; height: 32px; vertical-align: top; display: inline-block; border: 2px solid rgb(255, 255, 255);>\"><div style=\"position: absolute; width: 48px; height: 32px; vertical-align: top; display: inline-block; background-size: contain; background-image: url()\"><\/div><\/div><\/div><div style=\"vertical-align: top; display: inline-block; margin-left: 12px padding: 2px\"><span style=\"font-size: 18px; color: rgb(255, 255, 255)\">Empty Socket<\/span><br><span style=\"font-size: 12px\">General<\/span><\/div><\/div><div style=\"white-space: nowrap; padding: 3px;\"><div style=\"width: 60px; height: 32px; vertical-align: top; display: inline-block;\"><div style=\"position: relative; width: 48px; height: 32px; vertical-align: top; display: inline-block; border: 2px solid rgb(255, 255, 255);>\"><div style=\"position: absolute; width: 48px; height: 32px; vertical-align: top; display: inline-block; background-size: contain; background-image: url()\"><\/div><\/div><\/div><div style=\"vertical-align: top; display: inline-block; margin-left: 12px padding: 2px\"><span style=\"font-size: 18px; color: rgb(255, 255, 255)\">Empty Socket<\/span><br><span style=\"font-size: 12px\">General<\/span><\/div><\/div><div style=\"white-space: nowrap; padding: 3px;\"><div style=\"width: 60px; height: 32px; vertical-align: top; display: inline-block;\"><div style=\"position: relative; width: 48px; height: 32px; vertical-align: top; display: inline-block; border: 2px solid rgb(255, 255, 255);>\"><div style=\"position: absolute; width: 48px; height: 32px; vertical-align: top; display: inline-block; background-size: contain; background-image: url()\"><\/div><\/div><\/div><div style=\"vertical-align: top; display: inline-block; margin-left: 12px padding: 2px\"><span style=\"font-size: 18px; color: rgb(255, 255, 255)\">Empty Socket<\/span><br><span style=\"font-size: 12px\">General<\/span><\/div><\/div><\/div>"}],"tradable":1,"name":"The Silent Ripper","name_color":"D2D2D2","type":"Mythical Dagger","market_name":"Silent Ripper","market_hash_name":"Silent Ripper","commodity":0,"owner":"76561198093479615"},"3361828801":{"currency":0,"appid":570,"contextid":"2","id":"3361828801","classid":"129965340","instanceid":"232177647","amount":"1","status":2,"background_color":"","icon_url":"s-MY66VXvX7-W7PQCiUu4wuv0lrhJ7MwK58nz6_EcxM15jASpE_5eUmD-XZxRXp-DLXVBb5r8z1gmH3OrcM9UnfkLRSkWuFsZd-lLSQEZ0IRstZavnqzJyeUVtip3HdPb9otFvte7HsUyfl3cw8hKQLsnhu4Pq1lK8g8mvOFI0V9tGdI70-_PQqZ_3lzD3EqW_XWRLw=","icon_url_large":"KOLPkOTvQ7uHLtTve0_s-5CuBSGgn031UupA8N6usQuu5-dp5fcHvDD2nkkAL7hml7QCfv_TDfgZ7Rrx3Kn_Suzl-m_l4h-pHKrCElVupVqKswEh_8JN4l7hMefYtrVX9Nv6bbrmEr4ctcoMV2X_YZzqEzWo0gShBeUM8YC8tVzmvO1l-aYRqiG8zxxUN-gxwLkSY_yAW7hG6gk=","descriptions":[{"type":"html","value":"Perfect for sliding through the bars of a cell, for a silent shiv in the dark. Just don't ask where he hides it."},{"type":"html","value":"<div style=\"white-space: nowrap; margin: 10px\"><div style=\"white-space: nowrap; padding: 3px;\"><div style=\"width: 60px; height: 32px; vertical-align: top; display: inline-block;\"><div style=\"position: relative; width: 48px; height: 32px; vertical-align: top; display: inline-block; border: 2px solid rgb(255, 255, 255);>\"><div style=\"position: absolute; width: 48px; height: 32px; vertical-align: top; display: inline-block; background-size: contain; background-image: url()\"><\/div><\/div><\/div><div style=\"vertical-align: top; display: inline-block; margin-left: 12px padding: 2px\"><span style=\"font-size: 18px; color: rgb(255, 255, 255)\">Empty Socket<\/span><br><span style=\"font-size: 12px\">General<\/span><\/div><\/div><div style=\"white-space: nowrap; padding: 3px;\"><div style=\"width: 60px; height: 32px; vertical-align: top; display: inline-block;\"><div style=\"position: relative; width: 48px; height: 32px; vertical-align: top; display: inline-block; border: 2px solid rgb(255, 255, 255);>\"><div style=\"position: absolute; width: 48px; height: 32px; vertical-align: top; display: inline-block; background-size: contain; background-image: url()\"><\/div><\/div><\/div><div style=\"vertical-align: top; display: inline-block; margin-left: 12px padding: 2px\"><span style=\"font-size: 18px; color: rgb(255, 255, 255)\">Empty Socket<\/span><br><span style=\"font-size: 12px\">General<\/span><\/div><\/div><\/div>"}],"tradable":1,"name":"The Silent Ripper","name_color":"D2D2D2","type":"Mythical Dagger","market_name":"Silent Ripper","market_hash_name":"Silent Ripper","commodity":0,"owner":"76561198043803251"},"3144545913":{"currency":0,"appid":570,"contextid":"2","id":"3144545913","classid":"129965340","instanceid":"253032808","amount":"1","status":2,"background_color":"","icon_url":"s-MY66VXvX7-W7PQCiUu4wuv0lrhJ7MwK58nz6_EcxM15jASpE_5eUmD-XZxRXp-DLXVBb5r8z1gmH3OrcM9UnfkLRSkWuFsZd-lLSQEZ0IRstZavnqzJyeUVtip3HdPb9otFvte7HsUyfl3cw8hKQLsnhu4Pq1lK8g8mvOFI0V9tGdI70-_PQqZ_3lzD3EqW_XWRLw=","icon_url_large":"KOLPkOTvQ7uHLtTve0_s-5CuBSGgn031UupA8N6usQuu5-dp5fcHvDD2nkkAL7hml7QCfv_TDfgZ7Rrx3Kn_Suzl-m_l4h-pHKrCElVupVqKswEh_8JN4l7hMefYtrVX9Nv6bbrmEr4ctcoMV2X_YZzqEzWo0gShBeUM8YC8tVzmvO1l-aYRqiG8zxxUN-gxwLkSY_yAW7hG6gk=","descriptions":[{"type":"html","value":"Perfect for sliding through the bars of a cell, for a silent shiv in the dark. Just don't ask where he hides it."},{"type":"html","value":"<div style=\"white-space: nowrap; margin: 10px\"><div style=\"white-space: nowrap; padding: 3px;\"><div style=\"width: 60px; height: 32px; vertical-align: top; display: inline-block;\"><div style=\"position: relative; width: 48px; height: 32px; vertical-align: top; display: inline-block; border: 2px solid rgb(255, 255, 255);>\"><div style=\"position: absolute; width: 48px; height: 32px; vertical-align: top; display: inline-block; background-size: contain; background-image: url()\"><\/div><\/div><\/div><div style=\"vertical-align: top; display: inline-block; margin-left: 12px padding: 2px\"><span style=\"font-size: 18px; color: rgb(255, 255, 255)\">Empty Socket<\/span><br><span style=\"font-size: 12px\">General<\/span><\/div><\/div><\/div>"}],"tradable":1,"name":"The Silent Ripper","name_color":"D2D2D2","type":"Mythical Dagger","market_name":"Silent Ripper","market_hash_name":"Silent Ripper","commodity":0,"owner":"76561198090784525"},"3348646158":{"currency":0,"appid":570,"contextid":"2","id":"3348646158","classid":"129965340","instanceid":"232177647","amount":"1","status":2,"background_color":"","icon_url":"s-MY66VXvX7-W7PQCiUu4wuv0lrhJ7MwK58nz6_EcxM15jASpE_5eUmD-XZxRXp-DLXVBb5r8z1gmH3OrcM9UnfkLRSkWuFsZd-lLSQEZ0IRstZavnqzJyeUVtip3HdPb9otFvte7HsUyfl3cw8hKQLsnhu4Pq1lK8g8mvOFI0V9tGdI70-_PQqZ_3lzD3EqW_XWRLw=","icon_url_large":"KOLPkOTvQ7uHLtTve0_s-5CuBSGgn031UupA8N6usQuu5-dp5fcHvDD2nkkAL7hml7QCfv_TDfgZ7Rrx3Kn_Suzl-m_l4h-pHKrCElVupVqKswEh_8JN4l7hMefYtrVX9Nv6bbrmEr4ctcoMV2X_YZzqEzWo0gShBeUM8YC8tVzmvO1l-aYRqiG8zxxUN-gxwLkSY_yAW7hG6gk=","descriptions":[{"type":"html","value":"Perfect for sliding through the bars of a cell, for a silent shiv in the dark. Just don't ask where he hides it."},{"type":"html","value":"<div style=\"white-space: nowrap; margin: 10px\"><div style=\"white-space: nowrap; padding: 3px;\"><div style=\"width: 60px; height: 32px; vertical-align: top; display: inline-block;\"><div style=\"position: relative; width: 48px; height: 32px; vertical-align: top; display: inline-block; border: 2px solid rgb(255, 255, 255);>\"><div style=\"position: absolute; width: 48px; height: 32px; vertical-align: top; display: inline-block; background-size: contain; background-image: url()\"><\/div><\/div><\/div><div style=\"vertical-align: top; display: inline-block; margin-left: 12px padding: 2px\"><span style=\"font-size: 18px; color: rgb(255, 255, 255)\">Empty Socket<\/span><br><span style=\"font-size: 12px\">General<\/span><\/div><\/div><div style=\"white-space: nowrap; padding: 3px;\"><div style=\"width: 60px; height: 32px; vertical-align: top; display: inline-block;\"><div style=\"position: relative; width: 48px; height: 32px; vertical-align: top; display: inline-block; border: 2px solid rgb(255, 255, 255);>\"><div style=\"position: absolute; width: 48px; height: 32px; vertical-align: top; display: inline-block; background-size: contain; background-image: url()\"><\/div><\/div><\/div><div style=\"vertical-align: top; display: inline-block; margin-left: 12px padding: 2px\"><span style=\"font-size: 18px; color: rgb(255, 255, 255)\">Empty Socket<\/span><br><span style=\"font-size: 12px\">General<\/span><\/div><\/div><\/div>"}],"tradable":1,"name":"The Silent Ripper","name_color":"D2D2D2","type":"Mythical Dagger","market_name":"Silent Ripper","market_hash_name":"Silent Ripper","commodity":0,"owner":"76561198002017969"},"3092155974":{"currency":0,"appid":570,"contextid":"2","id":"3092155974","classid":"129965340","instanceid":"253032808","amount":"1","status":2,"background_color":"","icon_url":"s-MY66VXvX7-W7PQCiUu4wuv0lrhJ7MwK58nz6_EcxM15jASpE_5eUmD-XZxRXp-DLXVBb5r8z1gmH3OrcM9UnfkLRSkWuFsZd-lLSQEZ0IRstZavnqzJyeUVtip3HdPb9otFvte7HsUyfl3cw8hKQLsnhu4Pq1lK8g8mvOFI0V9tGdI70-_PQqZ_3lzD3EqW_XWRLw=","icon_url_large":"KOLPkOTvQ7uHLtTve0_s-5CuBSGgn031UupA8N6usQuu5-dp5fcHvDD2nkkAL7hml7QCfv_TDfgZ7Rrx3Kn_Suzl-m_l4h-pHKrCElVupVqKswEh_8JN4l7hMefYtrVX9Nv6bbrmEr4ctcoMV2X_YZzqEzWo0gShBeUM8YC8tVzmvO1l-aYRqiG8zxxUN-gxwLkSY_yAW7hG6gk=","descriptions":[{"type":"html","value":"Perfect for sliding through the bars of a cell, for a silent shiv in the dark. Just don't ask where he hides it."},{"type":"html","value":"<div style=\"white-space: nowrap; margin: 10px\"><div style=\"white-space: nowrap; padding: 3px;\"><div style=\"width: 60px; height: 32px; vertical-align: top; display: inline-block;\"><div style=\"position: relative; width: 48px; height: 32px; vertical-align: top; display: inline-block; border: 2px solid rgb(255, 255, 255);>\"><div style=\"position: absolute; width: 48px; height: 32px; vertical-align: top; display: inline-block; background-size: contain; background-image: url()\"><\/div><\/div><\/div><div style=\"vertical-align: top; display: inline-block; margin-left: 12px padding: 2px\"><span style=\"font-size: 18px; color: rgb(255, 255, 255)\">Empty Socket<\/span><br><span style=\"font-size: 12px\">General<\/span><\/div><\/div><\/div>"}],"tradable":1,"name":"The Silent Ripper","name_color":"D2D2D2","type":"Mythical Dagger","market_name":"Silent Ripper","market_hash_name":"Silent Ripper","commodity":0,"owner":"76561198054934199"},"3322408830":{"currency":0,"appid":570,"contextid":"2","id":"3322408830","classid":"129965340","instanceid":"230158355","amount":"1","status":2,"background_color":"","icon_url":"s-MY66VXvX7-W7PQCiUu4wuv0lrhJ7MwK58nz6_EcxM15jASpE_5eUmD-XZxRXp-DLXVBb5r8z1gmH3OrcM9UnfkLRSkWuFsZd-lLSQEZ0IRstZavnqzJyeUVtip3HdPb9otFvte7HsUyfl3cw8hKQLsnhu4Pq1lK8g8mvOFI0V9tGdI70-_PQqZ_3lzD3EqW_XWRLw=","icon_url_large":"KOLPkOTvQ7uHLtTve0_s-5CuBSGgn031UupA8N6usQuu5-dp5fcHvDD2nkkAL7hml7QCfv_TDfgZ7Rrx3Kn_Suzl-m_l4h-pHKrCElVupVqKswEh_8JN4l7hMefYtrVX9Nv6bbrmEr4ctcoMV2X_YZzqEzWo0gShBeUM8YC8tVzmvO1l-aYRqiG8zxxUN-gxwLkSY_yAW7hG6gk=","descriptions":[{"type":"html","value":"Perfect for sliding through the bars of a cell, for a silent shiv in the dark. Just don't ask where he hides it."},{"type":"html","value":"<div style=\"white-space: nowrap; margin: 10px\"><div style=\"white-space: nowrap; padding: 3px;\"><div style=\"width: 60px; height: 32px; vertical-align: top; display: inline-block;\"><div style=\"position: relative; width: 48px; height: 32px; vertical-align: top; display: inline-block; border: 2px solid rgb(255, 255, 255);>\"><div style=\"position: absolute; width: 48px; height: 32px; vertical-align: top; display: inline-block; background-size: contain; background-image: url()\"><\/div><\/div><\/div><div style=\"vertical-align: top; display: inline-block; margin-left: 12px padding: 2px\"><span style=\"font-size: 18px; color: rgb(255, 255, 255)\">Empty Socket<\/span><br><span style=\"font-size: 12px\">General<\/span><\/div><\/div><div style=\"white-space: nowrap; padding: 3px;\"><div style=\"width: 60px; height: 32px; vertical-align: top; display: inline-block;\"><div style=\"position: relative; width: 48px; height: 32px; vertical-align: top; display: inline-block; border: 2px solid rgb(255, 255, 255);>\"><div style=\"position: absolute; width: 48px; height: 32px; vertical-align: top; display: inline-block; background-size: contain; background-image: url()\"><\/div><\/div><\/div><div style=\"vertical-align: top; display: inline-block; margin-left: 12px padding: 2px\"><span style=\"font-size: 18px; color: rgb(255, 255, 255)\">Empty Socket<\/span><br><span style=\"font-size: 12px\">General<\/span><\/div><\/div><\/div>"}],"tradable":1,"name":"The Silent Ripper","name_color":"D2D2D2","type":"Mythical Dagger","market_name":"Silent Ripper","market_hash_name":"Silent Ripper","commodity":0,"owner":"76561198083163536"},"3205300174":{"currency":0,"appid":570,"contextid":"2","id":"3205300174","classid":"129965340","instanceid":"253128156","amount":"1","status":2,"background_color":"","icon_url":"s-MY66VXvX7-W7PQCiUu4wuv0lrhJ7MwK58nz6_EcxM15jASpE_5eUmD-XZxRXp-DLXVBb5r8z1gmH3OrcM9UnfkLRSkWuFsZd-lLSQEZ0IRstZavnqzJyeUVtip3HdPb9otFvte7HsUyfl3cw8hKQLsnhu4Pq1lK8g8mvOFI0V9tGdI70-_PQqZ_3lzD3EqW_XWRLw=","icon_url_large":"KOLPkOTvQ7uHLtTve0_s-5CuBSGgn031UupA8N6usQuu5-dp5fcHvDD2nkkAL7hml7QCfv_TDfgZ7Rrx3Kn_Suzl-m_l4h-pHKrCElVupVqKswEh_8JN4l7hMefYtrVX9Nv6bbrmEr4ctcoMV2X_YZzqEzWo0gShBeUM8YC8tVzmvO1l-aYRqiG8zxxUN-gxwLkSY_yAW7hG6gk=","descriptions":[{"type":"html","value":"Perfect for sliding through the bars of a cell, for a silent shiv in the dark. Just don't ask where he hides it."},{"type":"html","value":"<div style=\"white-space: nowrap; margin: 10px\"><div style=\"white-space: nowrap; padding: 3px;\"><div style=\"width: 60px; height: 32px; vertical-align: top; display: inline-block;\"><div style=\"position: relative; width: 48px; height: 32px; vertical-align: top; display: inline-block; border: 2px solid rgb(255, 255, 255);>\"><div style=\"position: absolute; width: 48px; height: 32px; vertical-align: top; display: inline-block; background-size: contain; background-image: url()\"><\/div><\/div><\/div><div style=\"vertical-align: top; display: inline-block; margin-left: 12px padding: 2px\"><span style=\"font-size: 18px; color: rgb(255, 255, 255)\">Empty Socket<\/span><br><span style=\"font-size: 12px\">General<\/span><\/div><\/div><div style=\"white-space: nowrap; padding: 3px;\"><div style=\"width: 60px; height: 32px; vertical-align: top; display: inline-block;\"><div style=\"position: relative; width: 48px; height: 32px; vertical-align: top; display: inline-block; border: 2px solid rgb(255, 255, 255);>\"><div style=\"position: absolute; width: 48px; height: 32px; vertical-align: top; display: inline-block; background-size: contain; background-image: url()\"><\/div><\/div><\/div><div style=\"vertical-align: top; display: inline-block; margin-left: 12px padding: 2px\"><span style=\"font-size: 18px; color: rgb(255, 255, 255)\">Empty Socket<\/span><br><span style=\"font-size: 12px\">General<\/span><\/div><\/div><div style=\"white-space: nowrap; padding: 3px;\"><div style=\"width: 60px; height: 32px; vertical-align: top; display: inline-block;\"><div style=\"position: relative; width: 48px; height: 32px; vertical-align: top; display: inline-block; border: 2px solid rgb(255, 255, 255);>\"><div style=\"position: absolute; width: 48px; height: 32px; vertical-align: top; display: inline-block; background-size: contain; background-image: url()\"><\/div><\/div><\/div><div style=\"vertical-align: top; display: inline-block; margin-left: 12px padding: 2px\"><span style=\"font-size: 18px; color: rgb(255, 255, 255)\">Empty Socket<\/span><br><span style=\"font-size: 12px\">General<\/span><\/div><\/div><\/div>"}],"tradable":1,"name":"The Silent Ripper","name_color":"D2D2D2","type":"Mythical Dagger","market_name":"Silent Ripper","market_hash_name":"Silent Ripper","commodity":0,"owner":"76561198025207807"},"3041229348":{"currency":0,"appid":570,"contextid":"2","id":"3041229348","classid":"129965340","instanceid":"253128156","amount":"1","status":2,"background_color":"","icon_url":"s-MY66VXvX7-W7PQCiUu4wuv0lrhJ7MwK58nz6_EcxM15jASpE_5eUmD-XZxRXp-DLXVBb5r8z1gmH3OrcM9UnfkLRSkWuFsZd-lLSQEZ0IRstZavnqzJyeUVtip3HdPb9otFvte7HsUyfl3cw8hKQLsnhu4Pq1lK8g8mvOFI0V9tGdI70-_PQqZ_3lzD3EqW_XWRLw=","icon_url_large":"KOLPkOTvQ7uHLtTve0_s-5CuBSGgn031UupA8N6usQuu5-dp5fcHvDD2nkkAL7hml7QCfv_TDfgZ7Rrx3Kn_Suzl-m_l4h-pHKrCElVupVqKswEh_8JN4l7hMefYtrVX9Nv6bbrmEr4ctcoMV2X_YZzqEzWo0gShBeUM8YC8tVzmvO1l-aYRqiG8zxxUN-gxwLkSY_yAW7hG6gk=","descriptions":[{"type":"html","value":"Perfect for sliding through the bars of a cell, for a silent shiv in the dark. Just don't ask where he hides it."},{"type":"html","value":"<div style=\"white-space: nowrap; margin: 10px\"><div style=\"white-space: nowrap; padding: 3px;\"><div style=\"width: 60px; height: 32px; vertical-align: top; display: inline-block;\"><div style=\"position: relative; width: 48px; height: 32px; vertical-align: top; display: inline-block; border: 2px solid rgb(255, 255, 255);>\"><div style=\"position: absolute; width: 48px; height: 32px; vertical-align: top; display: inline-block; background-size: contain; background-image: url()\"><\/div><\/div><\/div><div style=\"vertical-align: top; display: inline-block; margin-left: 12px padding: 2px\"><span style=\"font-size: 18px; color: rgb(255, 255, 255)\">Empty Socket<\/span><br><span style=\"font-size: 12px\">General<\/span><\/div><\/div><div style=\"white-space: nowrap; padding: 3px;\"><div style=\"width: 60px; height: 32px; vertical-align: top; display: inline-block;\"><div style=\"position: relative; width: 48px; height: 32px; vertical-align: top; display: inline-block; border: 2px solid rgb(255, 255, 255);>\"><div style=\"position: absolute; width: 48px; height: 32px; vertical-align: top; display: inline-block; background-size: contain; background-image: url()\"><\/div><\/div><\/div><div style=\"vertical-align: top; display: inline-block; margin-left: 12px padding: 2px\"><span style=\"font-size: 18px; color: rgb(255, 255, 255)\">Empty Socket<\/span><br><span style=\"font-size: 12px\">General<\/span><\/div><\/div><div style=\"white-space: nowrap; padding: 3px;\"><div style=\"width: 60px; height: 32px; vertical-align: top; display: inline-block;\"><div style=\"position: relative; width: 48px; height: 32px; vertical-align: top; display: inline-block; border: 2px solid rgb(255, 255, 255);>\"><div style=\"position: absolute; width: 48px; height: 32px; vertical-align: top; display: inline-block; background-size: contain; background-image: url()\"><\/div><\/div><\/div><div style=\"vertical-align: top; display: inline-block; margin-left: 12px padding: 2px\"><span style=\"font-size: 18px; color: rgb(255, 255, 255)\">Empty Socket<\/span><br><span style=\"font-size: 12px\">General<\/span><\/div><\/div><\/div>"}],"tradable":1,"name":"The Silent Ripper","name_color":"D2D2D2","type":"Mythical Dagger","market_name":"Silent Ripper","market_hash_name":"Silent Ripper","commodity":0,"owner":"76561198081517216"}}}};
+	var g_rgCurrency = [];
+	var g_rgListingInfo = {"2810558695031416416":{"listingid":"2810558695031416416","steamid_lister":"76561198002017969","price":530,"fee":79,"publisher_fee_app":570,"publisher_fee_percent":"0.10000000149011612","currencyid":"2003","steam_fee":26,"publisher_fee":53,"asset":{"currency":0,"appid":570,"contextid":"2","id":"3372963035","amount":"1"}},"2828573093335271194":{"listingid":"2828573093335271194","steamid_lister":"76561198047392277","price":531,"fee":79,"publisher_fee_app":570,"publisher_fee_percent":"0.10000000149011612","currencyid":"2003","steam_fee":26,"publisher_fee":53,"asset":{"currency":0,"appid":570,"contextid":"2","id":"3363766371","amount":"1"}},"2830824893142621292":{"listingid":"2830824893142621292","steamid_lister":"76561198093479615","price":720,"fee":108,"publisher_fee_app":570,"publisher_fee_percent":"0.10000000149011612","currencyid":"2001","steam_fee":36,"publisher_fee":72,"asset":{"currency":0,"appid":570,"contextid":"2","id":"3362062711","amount":"1"}},"2829698993245365638":{"listingid":"2829698993245365638","steamid_lister":"76561198043803251","price":722,"fee":108,"publisher_fee_app":570,"publisher_fee_percent":"0.10000000149011612","currencyid":"2001","steam_fee":36,"publisher_fee":72,"asset":{"currency":0,"appid":570,"contextid":"2","id":"3361828801","amount":"1"}},"2830824893155625802":{"listingid":"2830824893155625802","steamid_lister":"76561198090784525","price":25000,"fee":3750,"publisher_fee_app":570,"publisher_fee_percent":"0.10000000149011612","currencyid":"2005","steam_fee":1250,"publisher_fee":2500,"asset":{"currency":0,"appid":570,"contextid":"2","id":"3144545913","amount":"1"}},"2810558694904024156":{"listingid":"2810558694904024156","steamid_lister":"76561198002017969","price":538,"fee":79,"publisher_fee_app":570,"publisher_fee_percent":"0.10000000149011612","currencyid":"2003","steam_fee":26,"publisher_fee":53,"asset":{"currency":0,"appid":570,"contextid":"2","id":"3348646158","amount":"1"}},"2810558694753039761":{"listingid":"2810558694753039761","steamid_lister":"76561198054934199","price":25131,"fee":3769,"publisher_fee_app":570,"publisher_fee_percent":"0.10000000149011612","currencyid":"2005","steam_fee":1256,"publisher_fee":2513,"asset":{"currency":0,"appid":570,"contextid":"2","id":"3092155974","amount":"1"}},"2829698993068986343":{"listingid":"2829698993068986343","steamid_lister":"76561198083163536","price":739,"fee":109,"publisher_fee_app":570,"publisher_fee_percent":"0.10000000149011612","currencyid":"2001","steam_fee":36,"publisher_fee":73,"asset":{"currency":0,"appid":570,"contextid":"2","id":"3322408830","amount":"1"}},"2828572376664206979":{"listingid":"2828572376664206979","steamid_lister":"76561198025207807","price":1739,"fee":259,"publisher_fee_app":570,"publisher_fee_percent":"0.10000000149011612","currencyid":"2007","steam_fee":86,"publisher_fee":173,"asset":{"currency":0,"appid":570,"contextid":"2","id":"3205300174","amount":"1"}},"2829698993019924453":{"listingid":"2829698993019924453","steamid_lister":"76561198081517216","price":780,"fee":117,"publisher_fee_app":570,"publisher_fee_percent":"0.10000000149011612","currencyid":"2001","steam_fee":39,"publisher_fee":78,"asset":{"currency":0,"appid":570,"contextid":"2","id":"3041229348","amount":"1"}}};
+	var g_plotPriceHistory = null;
+	var g_timePriceHistoryEarliest = new Date();
+	var g_timePriceHistoryLatest = new Date();
+
+	ITEM_HOVER_DELAY = 250;
+
+	var g_oSearchResults = null;
+	Event.observe( document, 'dom:loaded', function() {
+		UserYou.LoadContexts( g_rgAppContextData );
+
+							CreateItemHoverFromContainer( g_rgAssets, 'listing_2810558695031416416_name', 570, '2', '3372963035', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_2810558695031416416_image', 570, '2', '3372963035', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_2828573093335271194_name', 570, '2', '3363766371', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_2828573093335271194_image', 570, '2', '3363766371', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_2830824893142621292_name', 570, '2', '3362062711', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_2830824893142621292_image', 570, '2', '3362062711', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_2829698993245365638_name', 570, '2', '3361828801', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_2829698993245365638_image', 570, '2', '3361828801', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_2830824893155625802_name', 570, '2', '3144545913', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_2830824893155625802_image', 570, '2', '3144545913', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_2810558694904024156_name', 570, '2', '3348646158', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_2810558694904024156_image', 570, '2', '3348646158', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_2810558694753039761_name', 570, '2', '3092155974', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_2810558694753039761_image', 570, '2', '3092155974', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_2829698993068986343_name', 570, '2', '3322408830', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_2829698993068986343_image', 570, '2', '3322408830', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_2828572376664206979_name', 570, '2', '3205300174', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_2828572376664206979_image', 570, '2', '3205300174', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_2829698993019924453_name', 570, '2', '3041229348', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_2829698993019924453_image', 570, '2', '3041229348', 1 );
+	
+			var rgAppItems = g_rgAssets[570];
+			var rgContextItems = rgAppItems['2'];
+			var rgItem = rgContextItems['3372963035'];
+			BuildHover( 'largeiteminfo', rgItem, '76561198002017969' );
+
+			g_oSearchResults = new CAjaxPagingControls( {"query":"","total_count":90,"pagesize":10,"prefix":"searchResults","class_prefix":"market"}, 'http://steamcommunity.com/market/listings/570/Silent%20Ripper/' );
+
+			var oParams = {
+				country: g_strCountryCode,
+				language: g_strLanguage,
+				currency: typeof( g_rgWalletInfo ) != 'undefined' ? g_rgWalletInfo['wallet_currency'] : 1			};
+
+							oParams.currency = '1';
+			
+						g_oSearchResults.SetStaticParameters( oParams );
+
+			g_oSearchResults.SetResponseHandler( function( response ) {
+				g_rgAssets = response.assets;
+				g_rgCurrency = response.currency;
+				g_rgListingInfo = response.listinginfo;
+				eval( response.hovers );
+				MergeWithAppDataArray( response.app_data );
+				
+								InstallMarketActionMenuButtons();
+							});
+
+			MarketCheckHash();
+						} );
+
+			$J(document).ready(function(){
+			var line1=[["Mon, 23 Sep 2013 01:00:00 +0000",10.6816272736,"8 sold"],["Tue, 24 Sep 2013 01:00:00 +0000",9.18340301514,"61 sold"],["Wed, 25 Sep 2013 01:00:00 +0000",9.83680152893,"43 sold"],["Thu, 26 Sep 2013 01:00:00 +0000",9.77282333374,"33 sold"],["Fri, 27 Sep 2013 01:00:00 +0000",10.0111017227,"39 sold"],["Sat, 28 Sep 2013 01:00:00 +0000",9.5334482193,"42 sold"],["Sun, 29 Sep 2013 01:00:00 +0000",9.48209857941,"44 sold"],["Mon, 30 Sep 2013 01:00:00 +0000",9.58280754089,"40 sold"],["Tue, 01 Oct 2013 01:00:00 +0000",10.111123085,"30 sold"],["Wed, 02 Oct 2013 01:00:00 +0000",10.5144968033,"22 sold"],["Thu, 03 Oct 2013 01:00:00 +0000",11.5512294769,"28 sold"],["Fri, 04 Oct 2013 01:00:00 +0000",11.276184082,"25 sold"],["Sat, 05 Oct 2013 01:00:00 +0000",10.8053884506,"36 sold"],["Sun, 06 Oct 2013 01:00:00 +0000",11.2307100296,"48 sold"],["Mon, 07 Oct 2013 01:00:00 +0000",12.2161808014,"24 sold"],["Tue, 08 Oct 2013 01:00:00 +0000",11.8278408051,"35 sold"],["Wed, 09 Oct 2013 01:00:00 +0000",11.8119592667,"25 sold"],["Thu, 10 Oct 2013 01:00:00 +0000",12.7794408798,"42 sold"],["Fri, 11 Oct 2013 01:00:00 +0000",13.3151702881,"22 sold"],["Sat, 12 Oct 2013 01:00:00 +0000",12.4038629532,"25 sold"],["Sun, 13 Oct 2013 01:00:00 +0000",12.3600959778,"41 sold"],["Mon, 14 Oct 2013 01:00:00 +0000",12.7947740555,"25 sold"],["Tue, 15 Oct 2013 01:00:00 +0000",12.4651317596,"29 sold"],["Wed, 16 Oct 2013 01:00:00 +0000",13.3786582947,"42 sold"],["Thu, 17 Oct 2013 01:00:00 +0000",13.7066907883,"66 sold"],["Fri, 18 Oct 2013 01:00:00 +0000",14.9800653458,"18 sold"],["Sat, 19 Oct 2013 01:00:00 +0000",13.5572404861,"27 sold"],["Sun, 20 Oct 2013 01:00:00 +0000",13.7967367172,"26 sold"],["Mon, 21 Oct 2013 01:00:00 +0000",13.7220373154,"38 sold"],["Tue, 22 Oct 2013 01:00:00 +0000",14.0011806488,"29 sold"],["Wed, 23 Oct 2013 01:00:00 +0000",13.4253520966,"28 sold"],["Thu, 24 Oct 2013 01:00:00 +0000",13.4609460831,"31 sold"],["Fri, 25 Oct 2013 01:00:00 +0000",13.1752996445,"31 sold"],["Sat, 26 Oct 2013 01:00:00 +0000",13.4456014633,"40 sold"],["Sun, 27 Oct 2013 01:00:00 +0000",13.5353450775,"30 sold"],["Mon, 28 Oct 2013 01:00:00 +0000",12.9278335571,"19 sold"],["Tue, 29 Oct 2013 01:00:00 +0000",13.7542190552,"32 sold"],["Wed, 30 Oct 2013 01:00:00 +0000",12.8901395798,"28 sold"],["Thu, 31 Oct 2013 01:00:00 +0000",13.1002626419,"31 sold"],["Fri, 01 Nov 2013 01:00:00 +0000",13.3715934753,"25 sold"],["Sat, 02 Nov 2013 01:00:00 +0000",13.2120275497,"40 sold"],["Sun, 03 Nov 2013 01:00:00 +0000",13.3325843811,"16 sold"],["Mon, 04 Nov 2013 01:00:00 +0000",12.5838632584,"39 sold"],["Tue, 05 Nov 2013 01:00:00 +0000",13.3497076035,"33 sold"],["Wed, 06 Nov 2013 01:00:00 +0000",13.3382015228,"27 sold"],["Thu, 07 Nov 2013 01:00:00 +0000",12.6582460403,"27 sold"],["Fri, 08 Nov 2013 01:00:00 +0000",13.1230888367,"25 sold"],["Sat, 09 Nov 2013 01:00:00 +0000",12.9295330048,"29 sold"],["Sun, 10 Nov 2013 01:00:00 +0000",13.2547483444,"25 sold"],["Mon, 11 Nov 2013 01:00:00 +0000",12.2269048691,"27 sold"],["Tue, 12 Nov 2013 01:00:00 +0000",13.1975002289,"23 sold"],["Wed, 13 Nov 2013 01:00:00 +0000",13.4410457611,"23 sold"],["Thu, 14 Nov 2013 01:00:00 +0000",12.864692688,"5 sold"],["Sat, 16 Nov 2013 01:00:00 +0000",11.2490749359,"60 sold"],["Sun, 17 Nov 2013 01:00:00 +0000",9.83374500275,"74 sold"],["Mon, 18 Nov 2013 01:00:00 +0000",10.0324668884,"92 sold"],["Tue, 19 Nov 2013 01:00:00 +0000",11.3156108856,"42 sold"],["Wed, 20 Nov 2013 01:00:00 +0000",10.5517845154,"57 sold"],["Thu, 21 Nov 2013 01:00:00 +0000",10.0659990311,"58 sold"],["Fri, 22 Nov 2013 01:00:00 +0000",10.8334760666,"48 sold"],["Sat, 23 Nov 2013 01:00:00 +0000",10.5764560699,"54 sold"],["Sun, 24 Nov 2013 01:00:00 +0000",10.5615606308,"54 sold"],["Mon, 25 Nov 2013 01:00:00 +0000",11.3188457489,"48 sold"],["Tue, 26 Nov 2013 01:00:00 +0000",9.98537635803,"57 sold"],["Wed, 27 Nov 2013 01:00:00 +0000",10.7960147858,"50 sold"],["Thu, 28 Nov 2013 01:00:00 +0000",10.0028486252,"57 sold"],["Fri, 29 Nov 2013 01:00:00 +0000",9.55230903625,"53 sold"],["Sat, 30 Nov 2013 01:00:00 +0000",9.97692584991,"52 sold"],["Sun, 01 Dec 2013 01:00:00 +0000",9.14810752869,"71 sold"],["Mon, 02 Dec 2013 01:00:00 +0000",9.97690105438,"46 sold"],["Tue, 03 Dec 2013 01:00:00 +0000",10.6006011963,"39 sold"],["Wed, 04 Dec 2013 01:00:00 +0000",10.7849912643,"44 sold"],["Thu, 05 Dec 2013 01:00:00 +0000",11.2963199615,"43 sold"],["Fri, 06 Dec 2013 01:00:00 +0000",10.8355178833,"49 sold"],["Sat, 07 Dec 2013 01:00:00 +0000",10.5719022751,"54 sold"],["Sun, 08 Dec 2013 01:00:00 +0000",10.2511358261,"54 sold"],["Mon, 09 Dec 2013 01:00:00 +0000",10.6207809448,"38 sold"],["Tue, 10 Dec 2013 01:00:00 +0000",10.6182050705,"47 sold"],["Wed, 11 Dec 2013 01:00:00 +0000",10.289560318,"44 sold"],["Thu, 12 Dec 2013 01:00:00 +0000",10.1338386536,"50 sold"],["Fri, 13 Dec 2013 01:00:00 +0000",8.89203453064,"70 sold"],["Sat, 14 Dec 2013 01:00:00 +0000",8.00316429138,"104 sold"],["Sun, 15 Dec 2013 01:00:00 +0000",8.6013841629,"93 sold"],["Mon, 16 Dec 2013 01:00:00 +0000",9.6134147644,"101 sold"],["Tue, 17 Dec 2013 01:00:00 +0000",9.40037727356,"79 sold"],["Wed, 18 Dec 2013 01:00:00 +0000",9.38716411591,"73 sold"],["Thu, 19 Dec 2013 01:00:00 +0000",10.7728910446,"50 sold"],["Fri, 20 Dec 2013 01:00:00 +0000",10.480099678,"81 sold"],["Sat, 21 Dec 2013 01:00:00 +0000",10.4169111252,"70 sold"],["Sun, 22 Dec 2013 01:00:00 +0000",10.299241066,"68 sold"],["Mon, 23 Dec 2013 01:00:00 +0000",11.5506629944,"64 sold"],["Tue, 24 Dec 2013 01:00:00 +0000",11.9651088715,"75 sold"],["Wed, 25 Dec 2013 01:00:00 +0000",12.9756183624,"54 sold"],["Thu, 26 Dec 2013 01:00:00 +0000",13.166975975,"52 sold"],["Fri, 27 Dec 2013 01:00:00 +0000",13.3092126846,"54 sold"],["Sat, 28 Dec 2013 01:00:00 +0000",13.6249675751,"63 sold"],["Sun, 29 Dec 2013 01:00:00 +0000",13.8249969482,"66 sold"],["Mon, 30 Dec 2013 01:00:00 +0000",14.7625617981,"54 sold"],["Tue, 31 Dec 2013 01:00:00 +0000",14.5623893738,"60 sold"],["Wed, 01 Jan 2014 01:00:00 +0000",15.3401613235,"52 sold"],["Thu, 02 Jan 2014 01:00:00 +0000",15.2591753006,"52 sold"],["Fri, 03 Jan 2014 01:00:00 +0000",17.6189250946,"32 sold"],["Sat, 04 Jan 2014 01:00:00 +0000",17.0349903107,"37 sold"],["Sun, 05 Jan 2014 01:00:00 +0000",16.4359054565,"53 sold"],["Mon, 06 Jan 2014 01:00:00 +0000",16.2080974579,"47 sold"],["Tue, 07 Jan 2014 01:00:00 +0000",18.5217247009,"46 sold"],["Wed, 08 Jan 2014 01:00:00 +0000",18.1051139832,"39 sold"],["Thu, 09 Jan 2014 01:00:00 +0000",16.9957485199,"48 sold"],["Fri, 10 Jan 2014 01:00:00 +0000",18.1169719696,"40 sold"],["Sat, 11 Jan 2014 01:00:00 +0000",16.7534236908,"40 sold"],["Sun, 12 Jan 2014 01:00:00 +0000",17.7445144653,"46 sold"],["Mon, 13 Jan 2014 01:00:00 +0000",18.1652927399,"42 sold"],["Tue, 14 Jan 2014 01:00:00 +0000",19.2142848969,"32 sold"],["Wed, 15 Jan 2014 01:00:00 +0000",19.5844993591,"39 sold"],["Thu, 16 Jan 2014 01:00:00 +0000",18.3496437073,"36 sold"],["Fri, 17 Jan 2014 01:00:00 +0000",19.3664340973,"43 sold"],["Sat, 18 Jan 2014 01:00:00 +0000",19.493850708,"68 sold"],["Sun, 19 Jan 2014 01:00:00 +0000",19.1653385162,"66 sold"],["Mon, 20 Jan 2014 01:00:00 +0000",19.4635848999,"50 sold"],["Tue, 21 Jan 2014 01:00:00 +0000",19.3482971191,"50 sold"],["Wed, 22 Jan 2014 01:00:00 +0000",19.8561668396,"39 sold"],["Thu, 23 Jan 2014 01:00:00 +0000",20.4494514465,"46 sold"],["Fri, 24 Jan 2014 01:00:00 +0000",20.1923408508,"30 sold"],["Sat, 25 Jan 2014 01:00:00 +0000",20.7966709137,"39 sold"],["Sun, 26 Jan 2014 01:00:00 +0000",19.5101470947,"46 sold"],["Mon, 27 Jan 2014 01:00:00 +0000",20.6810970306,"60 sold"],["Tue, 28 Jan 2014 01:00:00 +0000",20.1884021759,"45 sold"],["Wed, 29 Jan 2014 01:00:00 +0000",19.0339069366,"27 sold"],["Thu, 30 Jan 2014 01:00:00 +0000",17.7909641266,"31 sold"],["Fri, 31 Jan 2014 01:00:00 +0000",17.6878604889,"35 sold"],["Sat, 01 Feb 2014 01:00:00 +0000",17.6244525909,"47 sold"],["Sun, 02 Feb 2014 01:00:00 +0000",18.7457370758,"34 sold"],["Mon, 03 Feb 2014 01:00:00 +0000",17.9680728912,"25 sold"],["Tue, 04 Feb 2014 01:00:00 +0000",18.5202617645,"32 sold"],["Wed, 05 Feb 2014 01:00:00 +0000",19.1335372925,"30 sold"],["Thu, 06 Feb 2014 01:00:00 +0000",17.5238857269,"45 sold"],["Fri, 07 Feb 2014 01:00:00 +0000",16.2740116119,"52 sold"],["Sat, 08 Feb 2014 01:00:00 +0000",17.1243534088,"49 sold"],["Sun, 09 Feb 2014 01:00:00 +0000",16.5608520508,"43 sold"],["Mon, 10 Feb 2014 01:00:00 +0000",17.7765655518,"48 sold"],["Tue, 11 Feb 2014 01:00:00 +0000",17.6046142578,"65 sold"],["Wed, 12 Feb 2014 01:00:00 +0000",19.2743930817,"49 sold"],["Thu, 13 Feb 2014 01:00:00 +0000",19.4419631958,"44 sold"],["Fri, 14 Feb 2014 01:00:00 +0000",18.9095516205,"41 sold"],["Sat, 15 Feb 2014 01:00:00 +0000",19.4939136505,"55 sold"],["Sun, 16 Feb 2014 01:00:00 +0000",19.1615219116,"44 sold"],["Mon, 17 Feb 2014 01:00:00 +0000",18.2036952972,"35 sold"],["Tue, 18 Feb 2014 01:00:00 +0000",18.8761634827,"43 sold"],["Wed, 19 Feb 2014 01:00:00 +0000",18.6520462036,"45 sold"],["Thu, 20 Feb 2014 01:00:00 +0000",19.1487255096,"36 sold"],["Fri, 21 Feb 2014 01:00:00 +0000",19.2016410828,"48 sold"],["Sat, 22 Feb 2014 01:00:00 +0000",19.5014038086,"50 sold"],["Sun, 23 Feb 2014 01:00:00 +0000",20.1689605713,"48 sold"],["Mon, 24 Feb 2014 01:00:00 +0000",20.5784492493,"40 sold"],["Tue, 25 Feb 2014 01:00:00 +0000",19.0630550385,"41 sold"],["Wed, 26 Feb 2014 01:00:00 +0000",19.2928714752,"46 sold"],["Thu, 27 Feb 2014 01:00:00 +0000",20.424249649,"37 sold"],["Fri, 28 Feb 2014 01:00:00 +0000",20.340921402,"27 sold"],["Sat, 01 Mar 2014 01:00:00 +0000",20.0132541656,"34 sold"],["Sun, 02 Mar 2014 01:00:00 +0000",20.4028701782,"39 sold"],["Mon, 03 Mar 2014 01:00:00 +0000",21.4148864746,"28 sold"],["Tue, 04 Mar 2014 01:00:00 +0000",21.2594966888,"37 sold"],["Wed, 05 Mar 2014 01:00:00 +0000",21.6217250824,"25 sold"],["Thu, 06 Mar 2014 01:00:00 +0000",21.0308513641,"43 sold"],["Fri, 07 Mar 2014 01:00:00 +0000",20.6826286316,"43 sold"],["Sat, 08 Mar 2014 01:00:00 +0000",22.9590759277,"50 sold"],["Sun, 09 Mar 2014 01:00:00 +0000",22.3539142609,"34 sold"],["Mon, 10 Mar 2014 01:00:00 +0000",23.5581607819,"56 sold"],["Tue, 11 Mar 2014 01:00:00 +0000",23.6877574921,"35 sold"],["Wed, 12 Mar 2014 01:00:00 +0000",25.0243682861,"28 sold"],["Thu, 13 Mar 2014 01:00:00 +0000",24.0870704651,"24 sold"],["Fri, 14 Mar 2014 01:00:00 +0000",26.1228237152,"33 sold"],["Sat, 15 Mar 2014 01:00:00 +0000",22.831703186,"50 sold"],["Sun, 16 Mar 2014 01:00:00 +0000",22.2410755157,"40 sold"],["Mon, 17 Mar 2014 01:00:00 +0000",22.0911865234,"38 sold"],["Tue, 18 Mar 2014 01:00:00 +0000",21.537651062,"56 sold"],["Wed, 19 Mar 2014 01:00:00 +0000",13.9322900772,"106 sold"],["Thu, 20 Mar 2014 01:00:00 +0000",11.1968812943,"62 sold"],["Fri, 21 Mar 2014 01:00:00 +0000",11.4714593887,"93 sold"],["Sat, 22 Mar 2014 01:00:00 +0000",9.906042099,"78 sold"],["Sun, 23 Mar 2014 01:00:00 +0000",10.695561409,"64 sold"],["Mon, 24 Mar 2014 01:00:00 +0000",9.46295833588,"53 sold"],["Tue, 25 Mar 2014 01:00:00 +0000",9.11506080627,"63 sold"],["Wed, 26 Mar 2014 01:00:00 +0000",8.61044883728,"80 sold"],["Thu, 27 Mar 2014 01:00:00 +0000",9.97516441345,"65 sold"],["Fri, 28 Mar 2014 01:00:00 +0000",8.62897872925,"60 sold"],["Sat, 29 Mar 2014 01:00:00 +0000",8.20761203766,"88 sold"],["Sun, 30 Mar 2014 01:00:00 +0000",8.47220516205,"95 sold"],["Mon, 31 Mar 2014 01:00:00 +0000",7.93519306183,"83 sold"],["Tue, 01 Apr 2014 01:00:00 +0000",8.12685775757,"70 sold"],["Wed, 02 Apr 2014 01:00:00 +0000",8.50940322876,"73 sold"],["Thu, 03 Apr 2014 01:00:00 +0000",8.15717506409,"79 sold"],["Fri, 04 Apr 2014 01:00:00 +0000",8.76186084747,"91 sold"],["Sat, 05 Apr 2014 01:00:00 +0000",8.19777679443,"81 sold"],["Sun, 06 Apr 2014 01:00:00 +0000",8.70243835449,"87 sold"],["Mon, 07 Apr 2014 01:00:00 +0000",8.84599399567,"61 sold"],["Tue, 08 Apr 2014 01:00:00 +0000",8.90067958832,"68 sold"],["Wed, 09 Apr 2014 01:00:00 +0000",8.84389400482,"70 sold"],["Thu, 10 Apr 2014 01:00:00 +0000",8.22687530518,"74 sold"],["Fri, 11 Apr 2014 01:00:00 +0000",7.80236244202,"77 sold"],["Sat, 12 Apr 2014 01:00:00 +0000",7.92210531235,"73 sold"],["Sun, 13 Apr 2014 01:00:00 +0000",7.92658185959,"63 sold"],["Mon, 14 Apr 2014 01:00:00 +0000",8.56595516205,"58 sold"],["Tue, 15 Apr 2014 01:00:00 +0000",8.63594722748,"64 sold"],["Wed, 16 Apr 2014 01:00:00 +0000",8.13392925262,"65 sold"],["Thu, 17 Apr 2014 01:00:00 +0000",8.18993091583,"64 sold"],["Fri, 18 Apr 2014 01:00:00 +0000",8.59505748749,"77 sold"],["Sat, 19 Apr 2014 01:00:00 +0000",8.5707988739,"77 sold"],["Sun, 20 Apr 2014 01:00:00 +0000",8.14228820801,"68 sold"],["Mon, 21 Apr 2014 01:00:00 +0000",8.83050632477,"65 sold"],["Tue, 22 Apr 2014 01:00:00 +0000",9.12850856781,"52 sold"],["Wed, 23 Apr 2014 01:00:00 +0000",8.43910217285,"65 sold"],["Thu, 24 Apr 2014 01:00:00 +0000",8.88596153259,"56 sold"],["Fri, 25 Apr 2014 01:00:00 +0000",9.10475635529,"68 sold"],["Sat, 26 Apr 2014 01:00:00 +0000",8.14882469177,"93 sold"],["Sun, 27 Apr 2014 01:00:00 +0000",8.16885662079,"73 sold"],["Mon, 28 Apr 2014 01:00:00 +0000",7.75495481491,"74 sold"],["Tue, 29 Apr 2014 01:00:00 +0000",7.84418296814,"77 sold"],["Wed, 30 Apr 2014 01:00:00 +0000",7.17329692841,"91 sold"],["Thu, 01 May 2014 01:00:00 +0000",6.83373308182,"66 sold"],["Fri, 02 May 2014 01:00:00 +0000",7.17944860458,"76 sold"],["Sat, 03 May 2014 01:00:00 +0000",7.73926591873,"72 sold"],["Sun, 04 May 2014 01:00:00 +0000",7.27240228653,"62 sold"],["Mon, 05 May 2014 01:00:00 +0000",6.64642286301,"72 sold"],["Tue, 06 May 2014 01:00:00 +0000",6.36980104446,"63 sold"],["Wed, 07 May 2014 01:00:00 +0000",6.7344455719,"56 sold"],["Thu, 08 May 2014 01:00:00 +0000",6.6921582222,"72 sold"],["Fri, 09 May 2014 01:00:00 +0000",7.18961000443,"60 sold"],["Sat, 10 May 2014 01:00:00 +0000",4.99007463455,"136 sold"],["Sun, 11 May 2014 01:00:00 +0000",4.76879549026,"88 sold"],["Mon, 12 May 2014 01:00:00 +0000",5.49484395981,"80 sold"],["Tue, 13 May 2014 01:00:00 +0000",5.39160680771,"77 sold"],["Wed, 14 May 2014 01:00:00 +0000",5.9318356514,"57 sold"],["Thu, 15 May 2014 01:00:00 +0000",7.20670795441,"8 sold"],["Thu, 15 May 2014 08:00:00 +0000",7.5575799942,"2 sold"],["Thu, 15 May 2014 09:00:00 +0000",5.78407526016,"2 sold"],["Thu, 15 May 2014 10:00:00 +0000",5.74955511093,"2 sold"],["Thu, 15 May 2014 11:00:00 +0000",4.94000005722,"1 sold"],["Thu, 15 May 2014 12:00:00 +0000",4.85799789429,"3 sold"],["Thu, 15 May 2014 13:00:00 +0000",5.76736307144,"2 sold"],["Thu, 15 May 2014 14:00:00 +0000",5.49787425995,"3 sold"],["Thu, 15 May 2014 15:00:00 +0000",5.77296876907,"5 sold"],["Thu, 15 May 2014 16:00:00 +0000",5.61000013351,"3 sold"],["Thu, 15 May 2014 17:00:00 +0000",5.76664066315,"4 sold"],["Thu, 15 May 2014 18:00:00 +0000",5.71463155746,"2 sold"],["Thu, 15 May 2014 19:00:00 +0000",5.76000022888,"3 sold"],["Thu, 15 May 2014 21:00:00 +0000",5.71547794342,"1 sold"],["Thu, 15 May 2014 23:00:00 +0000",5.55285787582,"2 sold"],["Fri, 16 May 2014 00:00:00 +0000",5.35903310776,"3 sold"],["Fri, 16 May 2014 01:00:00 +0000",5.36999988556,"1 sold"],["Fri, 16 May 2014 02:00:00 +0000",5.48999977112,"1 sold"],["Fri, 16 May 2014 03:00:00 +0000",5.36602830887,"2 sold"],["Fri, 16 May 2014 04:00:00 +0000",9.46000003815,"3 sold"],["Fri, 16 May 2014 05:00:00 +0000",5.55999994278,"8 sold"],["Fri, 16 May 2014 06:00:00 +0000",5.66913700104,"2 sold"],["Fri, 16 May 2014 07:00:00 +0000",5.7841796875,"3 sold"],["Fri, 16 May 2014 08:00:00 +0000",6.94000005722,"5 sold"],["Fri, 16 May 2014 09:00:00 +0000",7.43801879883,"2 sold"],["Fri, 16 May 2014 10:00:00 +0000",5.72831487656,"2 sold"],["Fri, 16 May 2014 11:00:00 +0000",5.76000022888,"3 sold"],["Fri, 16 May 2014 12:00:00 +0000",5.60219097137,"3 sold"],["Fri, 16 May 2014 13:00:00 +0000",5.75,"4 sold"],["Fri, 16 May 2014 14:00:00 +0000",10.0799999237,"3 sold"],["Fri, 16 May 2014 15:00:00 +0000",5.75,"5 sold"],["Fri, 16 May 2014 16:00:00 +0000",5.73628616333,"5 sold"],["Fri, 16 May 2014 17:00:00 +0000",5.75664710999,"4 sold"],["Fri, 16 May 2014 18:00:00 +0000",5.17393922806,"2 sold"],["Fri, 16 May 2014 19:00:00 +0000",5.73143053055,"2 sold"],["Fri, 16 May 2014 20:00:00 +0000",5.70823001862,"2 sold"],["Fri, 16 May 2014 21:00:00 +0000",5.72331476212,"2 sold"],["Fri, 16 May 2014 22:00:00 +0000",5.71176958084,"3 sold"],["Fri, 16 May 2014 23:00:00 +0000",5.76411008835,"2 sold"],["Sat, 17 May 2014 01:00:00 +0000",5.61000013351,"1 sold"],["Sat, 17 May 2014 02:00:00 +0000",7.88999986649,"2 sold"],["Sat, 17 May 2014 04:00:00 +0000",5.76999998093,"3 sold"],["Sat, 17 May 2014 05:00:00 +0000",5.71301221848,"1 sold"],["Sat, 17 May 2014 06:00:00 +0000",5.7681427002,"4 sold"],["Sat, 17 May 2014 07:00:00 +0000",5.62307739258,"3 sold"],["Sat, 17 May 2014 08:00:00 +0000",8.45148181915,"2 sold"],["Sat, 17 May 2014 09:00:00 +0000",7.25082159042,"4 sold"],["Sat, 17 May 2014 10:00:00 +0000",5.61406850815,"2 sold"],["Sat, 17 May 2014 11:00:00 +0000",8.57952594757,"2 sold"],["Sat, 17 May 2014 12:00:00 +0000",5.63000011444,"1 sold"],["Sat, 17 May 2014 13:00:00 +0000",5.56866502762,"4 sold"],["Sat, 17 May 2014 14:00:00 +0000",5.71354007721,"6 sold"],["Sat, 17 May 2014 15:00:00 +0000",5.74662971497,"1 sold"],["Sat, 17 May 2014 16:00:00 +0000",5.77153205872,"6 sold"],["Sat, 17 May 2014 17:00:00 +0000",5.93957281113,"4 sold"],["Sat, 17 May 2014 18:00:00 +0000",5.98270130157,"6 sold"],["Sat, 17 May 2014 19:00:00 +0000",6.38405418396,"2 sold"],["Sat, 17 May 2014 20:00:00 +0000",8.5281124115,"2 sold"],["Sat, 17 May 2014 21:00:00 +0000",6.36999988556,"1 sold"],["Sat, 17 May 2014 22:00:00 +0000",10.9350004196,"2 sold"],["Sun, 18 May 2014 00:00:00 +0000",6.21000003815,"1 sold"],["Sun, 18 May 2014 01:00:00 +0000",6.30000019073,"1 sold"],["Sun, 18 May 2014 02:00:00 +0000",6.30000019073,"1 sold"],["Sun, 18 May 2014 04:00:00 +0000",8.26331233978,"2 sold"],["Sun, 18 May 2014 05:00:00 +0000",6.29518508911,"2 sold"],["Sun, 18 May 2014 07:00:00 +0000",5.50500011444,"4 sold"],["Sun, 18 May 2014 08:00:00 +0000",5.44999980927,"1 sold"],["Sun, 18 May 2014 09:00:00 +0000",5.38303470612,"3 sold"],["Sun, 18 May 2014 10:00:00 +0000",5.74375677109,"5 sold"],["Sun, 18 May 2014 11:00:00 +0000",8.85499954224,"2 sold"],["Sun, 18 May 2014 12:00:00 +0000",6.32000017166,"3 sold"],["Sun, 18 May 2014 13:00:00 +0000",6.23000001907,"3 sold"],["Sun, 18 May 2014 14:00:00 +0000",6.179063797,"3 sold"],["Sun, 18 May 2014 15:00:00 +0000",8.02499961853,"4 sold"],["Sun, 18 May 2014 16:00:00 +0000",6.09027814865,"2 sold"],["Sun, 18 May 2014 17:00:00 +0000",6.22161197662,"1 sold"],["Sun, 18 May 2014 18:00:00 +0000",7.54728937149,"4 sold"],["Sun, 18 May 2014 19:00:00 +0000",10.6701879501,"1 sold"],["Sun, 18 May 2014 20:00:00 +0000",6.02205276489,"2 sold"],["Sun, 18 May 2014 21:00:00 +0000",7.86999988556,"1 sold"],["Sun, 18 May 2014 22:00:00 +0000",10.3499679565,"3 sold"],["Sun, 18 May 2014 23:00:00 +0000",5.74661970139,"1 sold"],["Mon, 19 May 2014 00:00:00 +0000",5.63000011444,"2 sold"],["Mon, 19 May 2014 02:00:00 +0000",5.65533876419,"2 sold"],["Mon, 19 May 2014 03:00:00 +0000",5.67000007629,"1 sold"],["Mon, 19 May 2014 05:00:00 +0000",5.45608568192,"2 sold"],["Mon, 19 May 2014 06:00:00 +0000",5.44999980927,"5 sold"],["Mon, 19 May 2014 07:00:00 +0000",5.46500015259,"4 sold"],["Mon, 19 May 2014 08:00:00 +0000",5.49665164948,"1 sold"],["Mon, 19 May 2014 09:00:00 +0000",5.61733102798,"5 sold"],["Mon, 19 May 2014 10:00:00 +0000",7.97409343719,"4 sold"],["Mon, 19 May 2014 11:00:00 +0000",4.23000001907,"2 sold"],["Mon, 19 May 2014 12:00:00 +0000",5.71999979019,"5 sold"],["Mon, 19 May 2014 13:00:00 +0000",5.39737844467,"2 sold"],["Mon, 19 May 2014 14:00:00 +0000",5.75003910065,"6 sold"],["Mon, 19 May 2014 15:00:00 +0000",5.73916435242,"3 sold"],["Mon, 19 May 2014 16:00:00 +0000",5.17483997345,"2 sold"],["Mon, 19 May 2014 17:00:00 +0000",5.34436607361,"3 sold"],["Mon, 19 May 2014 18:00:00 +0000",6.17500019073,"2 sold"],["Mon, 19 May 2014 19:00:00 +0000",5.61733102798,"3 sold"],["Mon, 19 May 2014 20:00:00 +0000",5.75,"1 sold"],["Mon, 19 May 2014 21:00:00 +0000",5.73088502884,"2 sold"],["Mon, 19 May 2014 22:00:00 +0000",5.71645975113,"1 sold"],["Mon, 19 May 2014 23:00:00 +0000",5.51999998093,"1 sold"],["Tue, 20 May 2014 00:00:00 +0000",5.17000007629,"1 sold"],["Tue, 20 May 2014 01:00:00 +0000",5.71000003815,"3 sold"],["Tue, 20 May 2014 03:00:00 +0000",10.1850004196,"2 sold"],["Tue, 20 May 2014 04:00:00 +0000",5.65500020981,"2 sold"],["Tue, 20 May 2014 05:00:00 +0000",5.71999979019,"1 sold"],["Tue, 20 May 2014 06:00:00 +0000",5.77642822266,"1 sold"],["Tue, 20 May 2014 07:00:00 +0000",5.71999979019,"2 sold"],["Tue, 20 May 2014 08:00:00 +0000",8.02722263336,"2 sold"],["Tue, 20 May 2014 09:00:00 +0000",5.71539783478,"1 sold"],["Tue, 20 May 2014 10:00:00 +0000",5.73824834824,"7 sold"],["Tue, 20 May 2014 11:00:00 +0000",6.08360147476,"5 sold"],["Tue, 20 May 2014 12:00:00 +0000",6.31991147995,"1 sold"],["Tue, 20 May 2014 13:00:00 +0000",6.24441957474,"3 sold"],["Tue, 20 May 2014 14:00:00 +0000",5.32000017166,"1 sold"],["Tue, 20 May 2014 15:00:00 +0000",5.55072402954,"2 sold"],["Tue, 20 May 2014 16:00:00 +0000",5.6581287384,"3 sold"],["Tue, 20 May 2014 17:00:00 +0000",5.64626932144,"5 sold"],["Tue, 20 May 2014 18:00:00 +0000",5.61659955978,"7 sold"],["Tue, 20 May 2014 20:00:00 +0000",5.57886219025,"3 sold"],["Tue, 20 May 2014 21:00:00 +0000",5.71593523026,"1 sold"],["Tue, 20 May 2014 22:00:00 +0000",7.96000003815,"1 sold"],["Tue, 20 May 2014 23:00:00 +0000",5.99008131027,"1 sold"],["Wed, 21 May 2014 00:00:00 +0000",8,"1 sold"],["Wed, 21 May 2014 02:00:00 +0000",6.07000017166,"3 sold"],["Wed, 21 May 2014 04:00:00 +0000",5.98728466034,"1 sold"],["Wed, 21 May 2014 05:00:00 +0000",6.38500022888,"4 sold"],["Wed, 21 May 2014 06:00:00 +0000",6.67803525925,"6 sold"],["Wed, 21 May 2014 07:00:00 +0000",11.4099998474,"1 sold"],["Wed, 21 May 2014 08:00:00 +0000",6,"3 sold"],["Wed, 21 May 2014 09:00:00 +0000",6.05423545837,"2 sold"],["Wed, 21 May 2014 11:00:00 +0000",6.09517288208,"7 sold"],["Wed, 21 May 2014 12:00:00 +0000",6.055082798,"2 sold"],["Wed, 21 May 2014 13:00:00 +0000",6.32000017166,"5 sold"],["Wed, 21 May 2014 14:00:00 +0000",5.99102115631,"3 sold"],["Wed, 21 May 2014 15:00:00 +0000",6.6541185379,"1 sold"],["Wed, 21 May 2014 16:00:00 +0000",6.30242109299,"10 sold"],["Wed, 21 May 2014 17:00:00 +0000",6.30694723129,"7 sold"],["Wed, 21 May 2014 18:00:00 +0000",6.3954372406,"4 sold"],["Wed, 21 May 2014 19:00:00 +0000",6.36000013351,"3 sold"],["Wed, 21 May 2014 20:00:00 +0000",6.36000013351,"3 sold"],["Wed, 21 May 2014 23:00:00 +0000",5.28999996185,"2 sold"],["Thu, 22 May 2014 01:00:00 +0000",6.75,"1 sold"],["Thu, 22 May 2014 02:00:00 +0000",9.07999992371,"2 sold"],["Thu, 22 May 2014 04:00:00 +0000",6.76000022888,"1 sold"],["Thu, 22 May 2014 05:00:00 +0000",6.59000015259,"1 sold"],["Thu, 22 May 2014 06:00:00 +0000",8.97668838501,"2 sold"],["Thu, 22 May 2014 07:00:00 +0000",6.44000005722,"1 sold"],["Thu, 22 May 2014 08:00:00 +0000",6.00807332993,"1 sold"],["Thu, 22 May 2014 09:00:00 +0000",6.00836372375,"4 sold"],["Thu, 22 May 2014 10:00:00 +0000",6.09838724136,"5 sold"],["Thu, 22 May 2014 11:00:00 +0000",6.35974693298,"3 sold"],["Thu, 22 May 2014 12:00:00 +0000",8.84000015259,"2 sold"],["Thu, 22 May 2014 13:00:00 +0000",6.17404842377,"4 sold"],["Thu, 22 May 2014 14:00:00 +0000",6.09461259842,"3 sold"],["Thu, 22 May 2014 15:00:00 +0000",6,"5 sold"],["Thu, 22 May 2014 16:00:00 +0000",6.09490251541,"5 sold"],["Thu, 22 May 2014 17:00:00 +0000",6.54439353943,"4 sold"],["Thu, 22 May 2014 18:00:00 +0000",6.27441549301,"4 sold"],["Thu, 22 May 2014 19:00:00 +0000",11.412115097,"1 sold"],["Thu, 22 May 2014 20:00:00 +0000",8.89999961853,"2 sold"],["Thu, 22 May 2014 21:00:00 +0000",6.05019855499,"2 sold"],["Thu, 22 May 2014 22:00:00 +0000",6.39401388168,"5 sold"],["Thu, 22 May 2014 23:00:00 +0000",7.69999980927,"3 sold"],["Fri, 23 May 2014 00:00:00 +0000",5.99152040482,"1 sold"],["Fri, 23 May 2014 01:00:00 +0000",6.01000022888,"3 sold"],["Fri, 23 May 2014 02:00:00 +0000",6.04855632782,"4 sold"],["Fri, 23 May 2014 03:00:00 +0000",6.11000013351,"1 sold"],["Fri, 23 May 2014 04:00:00 +0000",6,"3 sold"],["Fri, 23 May 2014 05:00:00 +0000",6.25289201736,"4 sold"],["Fri, 23 May 2014 06:00:00 +0000",6.25,"6 sold"],["Fri, 23 May 2014 07:00:00 +0000",9.32499980927,"2 sold"],["Fri, 23 May 2014 08:00:00 +0000",5.89501094818,"2 sold"],["Fri, 23 May 2014 09:00:00 +0000",6.13597679138,"2 sold"],["Fri, 23 May 2014 10:00:00 +0000",6.41584777832,"4 sold"],["Fri, 23 May 2014 11:00:00 +0000",6.44319152832,"1 sold"],["Fri, 23 May 2014 13:00:00 +0000",6.01999998093,"1 sold"],["Fri, 23 May 2014 14:00:00 +0000",6.05499982834,"2 sold"],["Fri, 23 May 2014 15:00:00 +0000",6.05000019073,"7 sold"],["Fri, 23 May 2014 16:00:00 +0000",6.01499986649,"2 sold"],["Fri, 23 May 2014 17:00:00 +0000",6.31214618683,"6 sold"],["Fri, 23 May 2014 18:00:00 +0000",6.86999988556,"3 sold"],["Fri, 23 May 2014 19:00:00 +0000",6.67430257797,"2 sold"],["Fri, 23 May 2014 20:00:00 +0000",6.63999986649,"5 sold"],["Fri, 23 May 2014 21:00:00 +0000",6.3986620903,"2 sold"],["Fri, 23 May 2014 23:00:00 +0000",7.05000019073,"1 sold"],["Sat, 24 May 2014 01:00:00 +0000",6.61789560318,"4 sold"],["Sat, 24 May 2014 03:00:00 +0000",6.60463428497,"3 sold"],["Sat, 24 May 2014 04:00:00 +0000",6.61000013351,"1 sold"],["Sat, 24 May 2014 05:00:00 +0000",6.17999982834,"1 sold"],["Sat, 24 May 2014 06:00:00 +0000",6.98999977112,"3 sold"],["Sat, 24 May 2014 07:00:00 +0000",6.53084373474,"4 sold"],["Sat, 24 May 2014 08:00:00 +0000",6.45499992371,"2 sold"],["Sat, 24 May 2014 09:00:00 +0000",6.51156330109,"2 sold"],["Sat, 24 May 2014 10:00:00 +0000",9.08500003815,"4 sold"],["Sat, 24 May 2014 11:00:00 +0000",6.11988162994,"2 sold"],["Sat, 24 May 2014 12:00:00 +0000",5.96286678314,"6 sold"],["Sat, 24 May 2014 13:00:00 +0000",6.51999998093,"8 sold"],["Sat, 24 May 2014 14:00:00 +0000",6.47658634186,"2 sold"],["Sat, 24 May 2014 16:00:00 +0000",6.40999984741,"7 sold"],["Sat, 24 May 2014 17:00:00 +0000",6.53000020981,"5 sold"],["Sat, 24 May 2014 18:00:00 +0000",6.52500009537,"2 sold"],["Sat, 24 May 2014 19:00:00 +0000",6.60121583939,"8 sold"],["Sat, 24 May 2014 20:00:00 +0000",4.03000020981,"1 sold"],["Sat, 24 May 2014 21:00:00 +0000",6.52264165878,"4 sold"],["Sat, 24 May 2014 23:00:00 +0000",6.59999990463,"1 sold"],["Sun, 25 May 2014 00:00:00 +0000",8.97194385529,"2 sold"],["Sun, 25 May 2014 02:00:00 +0000",6.30299186707,"3 sold"],["Sun, 25 May 2014 03:00:00 +0000",11.5200004578,"1 sold"],["Sun, 25 May 2014 04:00:00 +0000",6.67000007629,"3 sold"],["Sun, 25 May 2014 05:00:00 +0000",6.00300741196,"1 sold"],["Sun, 25 May 2014 06:00:00 +0000",6.84000015259,"3 sold"],["Sun, 25 May 2014 07:00:00 +0000",6.98999977112,"3 sold"],["Sun, 25 May 2014 08:00:00 +0000",6.90000009537,"1 sold"],["Sun, 25 May 2014 09:00:00 +0000",6.84999990463,"4 sold"],["Sun, 25 May 2014 10:00:00 +0000",6.89965248108,"4 sold"],["Sun, 25 May 2014 11:00:00 +0000",6.87210988998,"6 sold"],["Sun, 25 May 2014 12:00:00 +0000",7.09979486465,"9 sold"],["Sun, 25 May 2014 13:00:00 +0000",7.11979436874,"1 sold"],["Sun, 25 May 2014 14:00:00 +0000",6.89959859848,"5 sold"],["Sun, 25 May 2014 15:00:00 +0000",6.79294729233,"8 sold"],["Sun, 25 May 2014 16:00:00 +0000",6.96042346954,"3 sold"],["Sun, 25 May 2014 17:00:00 +0000",6.84286689758,"3 sold"],["Sun, 25 May 2014 18:00:00 +0000",6.86041259766,"1 sold"],["Sun, 25 May 2014 19:00:00 +0000",6.86000013351,"1 sold"],["Sun, 25 May 2014 20:00:00 +0000",6.78000020981,"1 sold"],["Sun, 25 May 2014 21:00:00 +0000",6.69999980927,"1 sold"],["Sun, 25 May 2014 22:00:00 +0000",6.73999977112,"4 sold"],["Sun, 25 May 2014 23:00:00 +0000",7.02622079849,"1 sold"],["Mon, 26 May 2014 00:00:00 +0000",7.03000020981,"1 sold"],["Mon, 26 May 2014 01:00:00 +0000",7.13000011444,"1 sold"],["Mon, 26 May 2014 02:00:00 +0000",12.6000003815,"1 sold"],["Mon, 26 May 2014 03:00:00 +0000",7.5,"1 sold"],["Mon, 26 May 2014 05:00:00 +0000",7.06500005722,"2 sold"],["Mon, 26 May 2014 06:00:00 +0000",7.15000009537,"1 sold"],["Mon, 26 May 2014 07:00:00 +0000",5.99499988556,"2 sold"],["Mon, 26 May 2014 11:00:00 +0000",6.95983886719,"3 sold"],["Mon, 26 May 2014 12:00:00 +0000",6.80000019073,"1 sold"],["Mon, 26 May 2014 13:00:00 +0000",6.75301504135,"4 sold"],["Mon, 26 May 2014 14:00:00 +0000",6.98999977112,"3 sold"],["Mon, 26 May 2014 15:00:00 +0000",7.11833620071,"3 sold"],["Mon, 26 May 2014 16:00:00 +0000",7.33573722839,"2 sold"],["Mon, 26 May 2014 17:00:00 +0000",6.98000001907,"1 sold"],["Mon, 26 May 2014 18:00:00 +0000",6.80122661591,"2 sold"],["Mon, 26 May 2014 19:00:00 +0000",6.66974782944,"3 sold"],["Mon, 26 May 2014 20:00:00 +0000",6.67027664185,"2 sold"],["Mon, 26 May 2014 21:00:00 +0000",6.59930896759,"2 sold"],["Mon, 26 May 2014 22:00:00 +0000",6.69000005722,"5 sold"],["Mon, 26 May 2014 23:00:00 +0000",7.06018209457,"3 sold"],["Tue, 27 May 2014 00:00:00 +0000",6.87924337387,"2 sold"],["Tue, 27 May 2014 01:00:00 +0000",6.90999984741,"1 sold"],["Tue, 27 May 2014 02:00:00 +0000",8.17650413513,"2 sold"],["Tue, 27 May 2014 03:00:00 +0000",6.92000007629,"1 sold"],["Tue, 27 May 2014 04:00:00 +0000",6.96000003815,"2 sold"],["Tue, 27 May 2014 05:00:00 +0000",6.98500013351,"2 sold"],["Tue, 27 May 2014 06:00:00 +0000",6.98999977112,"2 sold"],["Tue, 27 May 2014 08:00:00 +0000",7.09117794037,"4 sold"],["Tue, 27 May 2014 09:00:00 +0000",8.05000019073,"7 sold"],["Tue, 27 May 2014 10:00:00 +0000",7.63999986649,"2 sold"],["Tue, 27 May 2014 11:00:00 +0000",7.40000009537,"6 sold"],["Tue, 27 May 2014 12:00:00 +0000",7.40000009537,"1 sold"],["Tue, 27 May 2014 13:00:00 +0000",7.43740415573,"2 sold"],["Tue, 27 May 2014 14:00:00 +0000",7.30622243881,"2 sold"],["Tue, 27 May 2014 15:00:00 +0000",7.31294727325,"4 sold"],["Tue, 27 May 2014 16:00:00 +0000",7.29189348221,"4 sold"],["Tue, 27 May 2014 17:00:00 +0000",6.7229475975,"4 sold"],["Tue, 27 May 2014 18:00:00 +0000",7.17999982834,"3 sold"],["Tue, 27 May 2014 19:00:00 +0000",7.06534051895,"5 sold"],["Tue, 27 May 2014 20:00:00 +0000",7.03000020981,"2 sold"],["Tue, 27 May 2014 21:00:00 +0000",7.21074390411,"3 sold"],["Tue, 27 May 2014 22:00:00 +0000",7.17833757401,"4 sold"],["Tue, 27 May 2014 23:00:00 +0000",12.9836082458,"1 sold"],["Wed, 28 May 2014 00:00:00 +0000",7.21999979019,"1 sold"],["Wed, 28 May 2014 01:00:00 +0000",7.24499988556,"2 sold"],["Wed, 28 May 2014 03:00:00 +0000",7.30000019073,"1 sold"],["Wed, 28 May 2014 05:00:00 +0000",7.48999977112,"4 sold"],["Wed, 28 May 2014 06:00:00 +0000",7.05999994278,"3 sold"],["Wed, 28 May 2014 07:00:00 +0000",7.09916734695,"8 sold"],["Wed, 28 May 2014 08:00:00 +0000",7.10343742371,"5 sold"],["Wed, 28 May 2014 09:00:00 +0000",7.02231025696,"1 sold"],["Wed, 28 May 2014 10:00:00 +0000",7.05999994278,"3 sold"],["Wed, 28 May 2014 11:00:00 +0000",7.2680182457,"7 sold"],["Wed, 28 May 2014 12:00:00 +0000",7.92037010193,"2 sold"],["Wed, 28 May 2014 13:00:00 +0000",8.00553035736,"2 sold"],["Wed, 28 May 2014 14:00:00 +0000",7.84000015259,"5 sold"],["Wed, 28 May 2014 15:00:00 +0000",7.38258552551,"3 sold"],["Wed, 28 May 2014 16:00:00 +0000",7.49802446365,"3 sold"],["Wed, 28 May 2014 17:00:00 +0000",7.83154773712,"7 sold"],["Wed, 28 May 2014 18:00:00 +0000",7.75158405304,"4 sold"],["Wed, 28 May 2014 19:00:00 +0000",7.78000020981,"1 sold"],["Wed, 28 May 2014 20:00:00 +0000",7.50209522247,"2 sold"],["Wed, 28 May 2014 21:00:00 +0000",7.40584754944,"5 sold"],["Wed, 28 May 2014 22:00:00 +0000",7.49953746796,"2 sold"],["Wed, 28 May 2014 23:00:00 +0000",7.67999982834,"3 sold"],["Thu, 29 May 2014 00:00:00 +0000",6.89233207703,"1 sold"],["Thu, 29 May 2014 01:00:00 +0000",9.60670471191,"2 sold"],["Thu, 29 May 2014 02:00:00 +0000",7.32999992371,"3 sold"],["Thu, 29 May 2014 03:00:00 +0000",7.44999980927,"1 sold"],["Thu, 29 May 2014 04:00:00 +0000",7.5,"1 sold"],["Thu, 29 May 2014 05:00:00 +0000",7.64643716812,"4 sold"],["Thu, 29 May 2014 06:00:00 +0000",7.84000015259,"1 sold"],["Thu, 29 May 2014 07:00:00 +0000",7.7216296196,"2 sold"],["Thu, 29 May 2014 08:00:00 +0000",7.15000009537,"5 sold"],["Thu, 29 May 2014 09:00:00 +0000",7.84934711456,"2 sold"],["Thu, 29 May 2014 10:00:00 +0000",7.76999998093,"4 sold"],["Thu, 29 May 2014 11:00:00 +0000",7.82000017166,"3 sold"],["Thu, 29 May 2014 12:00:00 +0000",7.90000009537,"8 sold"],["Thu, 29 May 2014 13:00:00 +0000",7.90999984741,"5 sold"],["Thu, 29 May 2014 14:00:00 +0000",7.55999994278,"5 sold"],["Thu, 29 May 2014 15:00:00 +0000",7.59504890442,"6 sold"],["Thu, 29 May 2014 16:00:00 +0000",7.45812177658,"4 sold"],["Thu, 29 May 2014 17:00:00 +0000",7.59999990463,"1 sold"],["Thu, 29 May 2014 19:00:00 +0000",6.96015501022,"4 sold"],["Thu, 29 May 2014 21:00:00 +0000",7.25,"1 sold"],["Thu, 29 May 2014 23:00:00 +0000",8.41194534302,"4 sold"],["Fri, 30 May 2014 00:00:00 +0000",7.53000020981,"3 sold"],["Fri, 30 May 2014 01:00:00 +0000",7.81551551819,"2 sold"],["Fri, 30 May 2014 02:00:00 +0000",7.7046122551,"1 sold"],["Fri, 30 May 2014 03:00:00 +0000",7.90000009537,"1 sold"],["Fri, 30 May 2014 04:00:00 +0000",7.82000017166,"3 sold"],["Fri, 30 May 2014 05:00:00 +0000",7.92999982834,"3 sold"],["Fri, 30 May 2014 06:00:00 +0000",8,"6 sold"],["Fri, 30 May 2014 08:00:00 +0000",8.05004787445,"1 sold"],["Fri, 30 May 2014 09:00:00 +0000",8.45499992371,"2 sold"],["Fri, 30 May 2014 10:00:00 +0000",8.91259384155,"4 sold"],["Fri, 30 May 2014 11:00:00 +0000",8.90538692474,"3 sold"],["Fri, 30 May 2014 12:00:00 +0000",8.84899139404,"2 sold"],["Fri, 30 May 2014 13:00:00 +0000",8.61999988556,"5 sold"],["Fri, 30 May 2014 14:00:00 +0000",8.30129241943,"2 sold"],["Fri, 30 May 2014 15:00:00 +0000",8.62672901154,"5 sold"],["Fri, 30 May 2014 16:00:00 +0000",8.49833011627,"1 sold"],["Fri, 30 May 2014 17:00:00 +0000",8.1532535553,"1 sold"],["Fri, 30 May 2014 19:00:00 +0000",7.78338479996,"5 sold"],["Fri, 30 May 2014 20:00:00 +0000",7.74367856979,"5 sold"],["Fri, 30 May 2014 21:00:00 +0000",7.90230464935,"2 sold"],["Fri, 30 May 2014 22:00:00 +0000",8.10617637634,"3 sold"],["Sat, 31 May 2014 00:00:00 +0000",7.90002393723,"2 sold"],["Sat, 31 May 2014 01:00:00 +0000",7.67999982834,"3 sold"],["Sat, 31 May 2014 02:00:00 +0000",7.76234006882,"1 sold"],["Sat, 31 May 2014 03:00:00 +0000",7.54500007629,"2 sold"],["Sat, 31 May 2014 04:00:00 +0000",7.19999980927,"1 sold"],["Sat, 31 May 2014 05:00:00 +0000",7.48999977112,"5 sold"],["Sat, 31 May 2014 06:00:00 +0000",7.15999984741,"3 sold"],["Sat, 31 May 2014 07:00:00 +0000",7.09999990463,"3 sold"],["Sat, 31 May 2014 08:00:00 +0000",7.07231760025,"5 sold"],["Sat, 31 May 2014 09:00:00 +0000",7.45984506607,"2 sold"],["Sat, 31 May 2014 10:00:00 +0000",5.98812627792,"9 sold"],["Sat, 31 May 2014 11:00:00 +0000",6.5712928772,"7 sold"],["Sat, 31 May 2014 12:00:00 +0000",6.59499406815,"10 sold"],["Sat, 31 May 2014 13:00:00 +0000",6.64499998093,"6 sold"],["Sat, 31 May 2014 14:00:00 +0000",6.63248586655,"8 sold"],["Sat, 31 May 2014 15:00:00 +0000",6.84999990463,"7 sold"],["Sat, 31 May 2014 16:00:00 +0000",6.81277656555,"6 sold"],["Sat, 31 May 2014 17:00:00 +0000",6.82000017166,"5 sold"],["Sat, 31 May 2014 18:00:00 +0000",6.87817239761,"2 sold"],["Sat, 31 May 2014 19:00:00 +0000",6.87718772888,"5 sold"],["Sat, 31 May 2014 20:00:00 +0000",6.80818223953,"6 sold"],["Sat, 31 May 2014 21:00:00 +0000",6.89354419708,"2 sold"],["Sat, 31 May 2014 22:00:00 +0000",11.2602901459,"2 sold"],["Sat, 31 May 2014 23:00:00 +0000",6.22350168228,"4 sold"],["Sun, 01 Jun 2014 00:00:00 +0000",6.32000017166,"1 sold"],["Sun, 01 Jun 2014 02:00:00 +0000",5.75,"1 sold"],["Sun, 01 Jun 2014 03:00:00 +0000",6.41662311554,"1 sold"],["Sun, 01 Jun 2014 04:00:00 +0000",6.3181848526,"2 sold"],["Sun, 01 Jun 2014 05:00:00 +0000",6.80171823502,"2 sold"],["Sun, 01 Jun 2014 06:00:00 +0000",6.5712928772,"3 sold"],["Sun, 01 Jun 2014 07:00:00 +0000",13,"1 sold"],["Sun, 01 Jun 2014 08:00:00 +0000",6.76183128357,"5 sold"],["Sun, 01 Jun 2014 09:00:00 +0000",6.60113573074,"3 sold"],["Sun, 01 Jun 2014 10:00:00 +0000",7.00316095352,"5 sold"],["Sun, 01 Jun 2014 11:00:00 +0000",6.90014410019,"1 sold"],["Sun, 01 Jun 2014 12:00:00 +0000",6.61000013351,"7 sold"],["Sun, 01 Jun 2014 13:00:00 +0000",6.48000001907,"6 sold"],["Sun, 01 Jun 2014 14:00:00 +0000",6.84999990463,"3 sold"],["Sun, 01 Jun 2014 15:00:00 +0000",7.10760974884,"4 sold"],["Sun, 01 Jun 2014 16:00:00 +0000",7.65500020981,"2 sold"],["Sun, 01 Jun 2014 17:00:00 +0000",7.22182178497,"3 sold"],["Sun, 01 Jun 2014 18:00:00 +0000",7.09749317169,"4 sold"],["Sun, 01 Jun 2014 19:00:00 +0000",6.84461784363,"2 sold"],["Sun, 01 Jun 2014 20:00:00 +0000",6.73000001907,"5 sold"],["Sun, 01 Jun 2014 21:00:00 +0000",6.73000001907,"1 sold"],["Sun, 01 Jun 2014 22:00:00 +0000",6.6988568306,"4 sold"],["Sun, 01 Jun 2014 23:00:00 +0000",6.84152412415,"2 sold"],["Mon, 02 Jun 2014 00:00:00 +0000",6.59527397156,"2 sold"],["Mon, 02 Jun 2014 01:00:00 +0000",6.71360397339,"4 sold"],["Mon, 02 Jun 2014 03:00:00 +0000",6.90014410019,"3 sold"],["Mon, 02 Jun 2014 04:00:00 +0000",6.92999982834,"3 sold"],["Mon, 02 Jun 2014 05:00:00 +0000",6.94507217407,"2 sold"],["Mon, 02 Jun 2014 06:00:00 +0000",7.03000020981,"1 sold"],["Mon, 02 Jun 2014 07:00:00 +0000",6.76183128357,"1 sold"],["Mon, 02 Jun 2014 08:00:00 +0000",6.70201730728,"4 sold"],["Mon, 02 Jun 2014 09:00:00 +0000",11.470000267,"1 sold"],["Mon, 02 Jun 2014 10:00:00 +0000",6.55330371857,"7 sold"],["Mon, 02 Jun 2014 11:00:00 +0000",6.53000020981,"11 sold"],["Mon, 02 Jun 2014 12:00:00 +0000",6.87407827377,"5 sold"],["Mon, 02 Jun 2014 13:00:00 +0000",6.90000009537,"4 sold"],["Mon, 02 Jun 2014 14:00:00 +0000",6.94724464417,"5 sold"],["Mon, 02 Jun 2014 15:00:00 +0000",6.95720767975,"10 sold"],["Mon, 02 Jun 2014 16:00:00 +0000",6.8629283905,"3 sold"],["Mon, 02 Jun 2014 17:00:00 +0000",6.90581321716,"4 sold"],["Mon, 02 Jun 2014 18:00:00 +0000",6.96084022522,"1 sold"],["Mon, 02 Jun 2014 19:00:00 +0000",6.89008903503,"3 sold"],["Mon, 02 Jun 2014 20:00:00 +0000",6.97278261185,"2 sold"],["Mon, 02 Jun 2014 21:00:00 +0000",6.7399930954,"2 sold"],["Mon, 02 Jun 2014 22:00:00 +0000",6.59000015259,"3 sold"],["Mon, 02 Jun 2014 23:00:00 +0000",6.9623503685,"2 sold"],["Tue, 03 Jun 2014 00:00:00 +0000",6.94302797318,"1 sold"],["Tue, 03 Jun 2014 01:00:00 +0000",6.78999996185,"5 sold"],["Tue, 03 Jun 2014 02:00:00 +0000",7.02881717682,"1 sold"],["Tue, 03 Jun 2014 03:00:00 +0000",6.91682481766,"2 sold"],["Tue, 03 Jun 2014 04:00:00 +0000",6.46000003815,"2 sold"],["Tue, 03 Jun 2014 05:00:00 +0000",6.90000009537,"3 sold"],["Tue, 03 Jun 2014 06:00:00 +0000",6.92500019073,"6 sold"],["Tue, 03 Jun 2014 07:00:00 +0000",6.90000009537,"1 sold"],["Tue, 03 Jun 2014 08:00:00 +0000",6.95472097397,"1 sold"],["Tue, 03 Jun 2014 09:00:00 +0000",6.9501786232,"1 sold"],["Tue, 03 Jun 2014 10:00:00 +0000",7.03999996185,"7 sold"],["Tue, 03 Jun 2014 11:00:00 +0000",7.12838172913,"9 sold"],["Tue, 03 Jun 2014 12:00:00 +0000",7.79679250717,"5 sold"],["Tue, 03 Jun 2014 13:00:00 +0000",7.05000019073,"5 sold"],["Tue, 03 Jun 2014 14:00:00 +0000",7.98000001907,"9 sold"],["Tue, 03 Jun 2014 15:00:00 +0000",7.98442697525,"1 sold"],["Tue, 03 Jun 2014 16:00:00 +0000",7.70870065689,"5 sold"],["Tue, 03 Jun 2014 17:00:00 +0000",8.02482223511,"2 sold"],["Tue, 03 Jun 2014 18:00:00 +0000",7.71308469772,"3 sold"],["Tue, 03 Jun 2014 19:00:00 +0000",7.72857475281,"4 sold"],["Tue, 03 Jun 2014 20:00:00 +0000",7.35707902908,"1 sold"],["Tue, 03 Jun 2014 21:00:00 +0000",7.53592967987,"1 sold"],["Tue, 03 Jun 2014 22:00:00 +0000",6.86147403717,"2 sold"],["Wed, 04 Jun 2014 00:00:00 +0000",11.3999996185,"1 sold"],["Wed, 04 Jun 2014 01:00:00 +0000",7.18912124634,"1 sold"],["Wed, 04 Jun 2014 02:00:00 +0000",7.29338359833,"2 sold"],["Wed, 04 Jun 2014 03:00:00 +0000",7.26421308517,"2 sold"],["Wed, 04 Jun 2014 04:00:00 +0000",7.32999992371,"3 sold"],["Wed, 04 Jun 2014 05:00:00 +0000",7.19500017166,"2 sold"],["Wed, 04 Jun 2014 06:00:00 +0000",7.32477426529,"2 sold"],["Wed, 04 Jun 2014 07:00:00 +0000",7.40000009537,"6 sold"],["Wed, 04 Jun 2014 08:00:00 +0000",6.26999998093,"5 sold"],["Wed, 04 Jun 2014 09:00:00 +0000",7.45810413361,"6 sold"],["Wed, 04 Jun 2014 10:00:00 +0000",7.12553691864,"1 sold"],["Wed, 04 Jun 2014 11:00:00 +0000",7.39378166199,"6 sold"],["Wed, 04 Jun 2014 12:00:00 +0000",7.41763782501,"4 sold"],["Wed, 04 Jun 2014 13:00:00 +0000",7.15000009537,"7 sold"],["Wed, 04 Jun 2014 14:00:00 +0000",7.26024532318,"6 sold"],["Wed, 04 Jun 2014 15:00:00 +0000",6.99499988556,"2 sold"],["Wed, 04 Jun 2014 16:00:00 +0000",6.75121355057,"4 sold"],["Wed, 04 Jun 2014 17:00:00 +0000",6.94000005722,"8 sold"],["Wed, 04 Jun 2014 18:00:00 +0000",6.98760938644,"5 sold"],["Wed, 04 Jun 2014 19:00:00 +0000",7.42419195175,"3 sold"],["Wed, 04 Jun 2014 20:00:00 +0000",7.14691019058,"5 sold"],["Wed, 04 Jun 2014 21:00:00 +0000",10.1700000763,"2 sold"],["Wed, 04 Jun 2014 22:00:00 +0000",7.58520317078,"2 sold"],["Thu, 05 Jun 2014 00:00:00 +0000",7.31808280945,"3 sold"],["Thu, 05 Jun 2014 01:00:00 +0000",7.11253595352,"1 sold"],["Thu, 05 Jun 2014 02:00:00 +0000",7.20499992371,"2 sold"],["Thu, 05 Jun 2014 04:00:00 +0000",7.30000019073,"3 sold"],["Thu, 05 Jun 2014 05:00:00 +0000",7.40999984741,"5 sold"],["Thu, 05 Jun 2014 06:00:00 +0000",7.44999980927,"2 sold"],["Thu, 05 Jun 2014 07:00:00 +0000",7.43507528305,"4 sold"],["Thu, 05 Jun 2014 08:00:00 +0000",7.55194950104,"2 sold"],["Thu, 05 Jun 2014 09:00:00 +0000",7.76000022888,"2 sold"],["Thu, 05 Jun 2014 10:00:00 +0000",7.83072185516,"3 sold"],["Thu, 05 Jun 2014 12:00:00 +0000",7.88999986649,"3 sold"],["Thu, 05 Jun 2014 13:00:00 +0000",7.88000011444,"8 sold"],["Thu, 05 Jun 2014 14:00:00 +0000",6.90000009537,"3 sold"],["Thu, 05 Jun 2014 15:00:00 +0000",7.38357782364,"8 sold"],["Thu, 05 Jun 2014 16:00:00 +0000",8.38757419586,"3 sold"],["Thu, 05 Jun 2014 17:00:00 +0000",8.02000045776,"1 sold"],["Thu, 05 Jun 2014 18:00:00 +0000",7.9994726181,"1 sold"],["Thu, 05 Jun 2014 19:00:00 +0000",7.51136922836,"3 sold"],["Thu, 05 Jun 2014 20:00:00 +0000",8.06746292114,"4 sold"],["Thu, 05 Jun 2014 21:00:00 +0000",7.67407035828,"1 sold"],["Thu, 05 Jun 2014 22:00:00 +0000",7.13000011444,"5 sold"],["Fri, 06 Jun 2014 00:00:00 +0000",7.76172590256,"1 sold"],["Fri, 06 Jun 2014 01:00:00 +0000",7.69999980927,"3 sold"],["Fri, 06 Jun 2014 02:00:00 +0000",7.86999988556,"3 sold"],["Fri, 06 Jun 2014 03:00:00 +0000",8.02632904053,"2 sold"],["Fri, 06 Jun 2014 04:00:00 +0000",8.05000019073,"3 sold"],["Fri, 06 Jun 2014 05:00:00 +0000",8.02499961853,"4 sold"],["Fri, 06 Jun 2014 06:00:00 +0000",8.21779727936,"2 sold"],["Fri, 06 Jun 2014 07:00:00 +0000",8.05007076263,"7 sold"],["Fri, 06 Jun 2014 08:00:00 +0000",8.02819442749,"2 sold"],["Fri, 06 Jun 2014 09:00:00 +0000",8.02000045776,"3 sold"],["Fri, 06 Jun 2014 10:00:00 +0000",7.73999977112,"4 sold"],["Fri, 06 Jun 2014 11:00:00 +0000",7.59499979019,"4 sold"],["Fri, 06 Jun 2014 12:00:00 +0000",7.84887886047,"6 sold"],["Fri, 06 Jun 2014 13:00:00 +0000",8.30516815186,"5 sold"],["Fri, 06 Jun 2014 14:00:00 +0000",8.24499988556,"4 sold"],["Fri, 06 Jun 2014 15:00:00 +0000",7.98101186752,"3 sold"],["Fri, 06 Jun 2014 16:00:00 +0000",7.94992637634,"6 sold"],["Fri, 06 Jun 2014 17:00:00 +0000",8.03876590729,"4 sold"],["Fri, 06 Jun 2014 18:00:00 +0000",10.4544506073,"4 sold"],["Fri, 06 Jun 2014 19:00:00 +0000",8.47999954224,"3 sold"],["Fri, 06 Jun 2014 20:00:00 +0000",11,"2 sold"],["Fri, 06 Jun 2014 21:00:00 +0000",8.27362823486,"4 sold"],["Fri, 06 Jun 2014 22:00:00 +0000",7.3597612381,"2 sold"],["Fri, 06 Jun 2014 23:00:00 +0000",10.7906522751,"1 sold"],["Sat, 07 Jun 2014 00:00:00 +0000",7.46672773361,"8 sold"],["Sat, 07 Jun 2014 01:00:00 +0000",8.10000038147,"1 sold"],["Sat, 07 Jun 2014 02:00:00 +0000",8.08337688446,"3 sold"],["Sat, 07 Jun 2014 03:00:00 +0000",8.02646636963,"6 sold"],["Sat, 07 Jun 2014 04:00:00 +0000",8.09638881683,"1 sold"],["Sat, 07 Jun 2014 05:00:00 +0000",7.83851242065,"3 sold"],["Sat, 07 Jun 2014 06:00:00 +0000",7.63401126862,"3 sold"],["Sat, 07 Jun 2014 07:00:00 +0000",7.62552309036,"2 sold"],["Sat, 07 Jun 2014 08:00:00 +0000",7.77500009537,"4 sold"],["Sat, 07 Jun 2014 09:00:00 +0000",7.95180606842,"6 sold"],["Sat, 07 Jun 2014 10:00:00 +0000",7.88999986649,"7 sold"],["Sat, 07 Jun 2014 11:00:00 +0000",7.92360067368,"6 sold"],["Sat, 07 Jun 2014 12:00:00 +0000",7.7048573494,"3 sold"],["Sat, 07 Jun 2014 13:00:00 +0000",7.59291744232,"5 sold"],["Sat, 07 Jun 2014 14:00:00 +0000",7.65000009537,"3 sold"],["Sat, 07 Jun 2014 15:00:00 +0000",7.65443992615,"4 sold"],["Sat, 07 Jun 2014 16:00:00 +0000",7.7048573494,"1 sold"],["Sat, 07 Jun 2014 17:00:00 +0000",7.4392991066,"2 sold"],["Sat, 07 Jun 2014 18:00:00 +0000",7.38808774948,"4 sold"],["Sat, 07 Jun 2014 19:00:00 +0000",7.62417984009,"5 sold"],["Sat, 07 Jun 2014 20:00:00 +0000",7.63999986649,"3 sold"],["Sat, 07 Jun 2014 21:00:00 +0000",7.59005784988,"1 sold"],["Sat, 07 Jun 2014 22:00:00 +0000",7.5,"4 sold"],["Sat, 07 Jun 2014 23:00:00 +0000",7.61000013351,"6 sold"],["Sun, 08 Jun 2014 02:00:00 +0000",9.19999980927,"3 sold"],["Sun, 08 Jun 2014 03:00:00 +0000",7.44000005722,"3 sold"],["Sun, 08 Jun 2014 04:00:00 +0000",7.54500007629,"2 sold"],["Sun, 08 Jun 2014 05:00:00 +0000",7.73999977112,"3 sold"],["Sun, 08 Jun 2014 06:00:00 +0000",7.61170101166,"4 sold"],["Sun, 08 Jun 2014 07:00:00 +0000",7.66292762756,"3 sold"],["Sun, 08 Jun 2014 08:00:00 +0000",7.78999996185,"5 sold"],["Sun, 08 Jun 2014 09:00:00 +0000",7.32681322098,"4 sold"],["Sun, 08 Jun 2014 10:00:00 +0000",7.74346065521,"8 sold"],["Sun, 08 Jun 2014 11:00:00 +0000",7.45499992371,"4 sold"],["Sun, 08 Jun 2014 12:00:00 +0000",7.38000011444,"6 sold"],["Sun, 08 Jun 2014 13:00:00 +0000",7.50966930389,"5 sold"],["Sun, 08 Jun 2014 14:00:00 +0000",7.95655107498,"6 sold"],["Sun, 08 Jun 2014 15:00:00 +0000",8.43500041962,"4 sold"],["Sun, 08 Jun 2014 16:00:00 +0000",8.01542282104,"5 sold"],["Sun, 08 Jun 2014 17:00:00 +0000",7.45499992371,"4 sold"],["Sun, 08 Jun 2014 18:00:00 +0000",7.69907426834,"1 sold"],["Sun, 08 Jun 2014 19:00:00 +0000",7.53000020981,"2 sold"],["Sun, 08 Jun 2014 20:00:00 +0000",7.62201070786,"2 sold"],["Sun, 08 Jun 2014 21:00:00 +0000",7.76211261749,"3 sold"],["Sun, 08 Jun 2014 22:00:00 +0000",7.29500007629,"4 sold"],["Sun, 08 Jun 2014 23:00:00 +0000",7.28000020981,"1 sold"],["Mon, 09 Jun 2014 00:00:00 +0000",7.31929159164,"2 sold"],["Mon, 09 Jun 2014 01:00:00 +0000",7.75620603561,"1 sold"],["Mon, 09 Jun 2014 02:00:00 +0000",8.20524978638,"3 sold"],["Mon, 09 Jun 2014 03:00:00 +0000",8.47292900085,"2 sold"],["Mon, 09 Jun 2014 05:00:00 +0000",8.07860565186,"4 sold"],["Mon, 09 Jun 2014 06:00:00 +0000",13.2826013565,"1 sold"],["Mon, 09 Jun 2014 07:00:00 +0000",10.5900001526,"2 sold"],["Mon, 09 Jun 2014 08:00:00 +0000",7.75620079041,"4 sold"],["Mon, 09 Jun 2014 09:00:00 +0000",7.94775772095,"3 sold"],["Mon, 09 Jun 2014 10:00:00 +0000",7.96500015259,"4 sold"],["Mon, 09 Jun 2014 11:00:00 +0000",7.92500019073,"4 sold"],["Mon, 09 Jun 2014 12:00:00 +0000",7.73377370834,"6 sold"],["Mon, 09 Jun 2014 13:00:00 +0000",7.82000017166,"6 sold"],["Mon, 09 Jun 2014 14:00:00 +0000",7.90002250671,"4 sold"],["Mon, 09 Jun 2014 15:00:00 +0000",7.60483455658,"4 sold"],["Mon, 09 Jun 2014 16:00:00 +0000",7.59772109985,"2 sold"],["Mon, 09 Jun 2014 17:00:00 +0000",7.61908435822,"4 sold"],["Mon, 09 Jun 2014 18:00:00 +0000",7.64702415466,"3 sold"],["Mon, 09 Jun 2014 19:00:00 +0000",7.59219789505,"4 sold"],["Mon, 09 Jun 2014 20:00:00 +0000",7.59291744232,"5 sold"],["Mon, 09 Jun 2014 21:00:00 +0000",6.65084266663,"1 sold"],["Mon, 09 Jun 2014 22:00:00 +0000",7.09000015259,"3 sold"],["Mon, 09 Jun 2014 23:00:00 +0000",8.05000019073,"1 sold"],["Tue, 10 Jun 2014 00:00:00 +0000",7.57718992233,"2 sold"],["Tue, 10 Jun 2014 01:00:00 +0000",7.36000013351,"1 sold"],["Tue, 10 Jun 2014 02:00:00 +0000",7.59999990463,"6 sold"],["Tue, 10 Jun 2014 03:00:00 +0000",7.94999980927,"1 sold"],["Tue, 10 Jun 2014 04:00:00 +0000",8.14000034332,"1 sold"],["Tue, 10 Jun 2014 06:00:00 +0000",7.46999979019,"1 sold"],["Tue, 10 Jun 2014 07:00:00 +0000",7.36999988556,"2 sold"],["Tue, 10 Jun 2014 08:00:00 +0000",7.32498168945,"2 sold"],["Tue, 10 Jun 2014 09:00:00 +0000",7.32730770111,"5 sold"],["Tue, 10 Jun 2014 10:00:00 +0000",7.46999979019,"3 sold"],["Tue, 10 Jun 2014 11:00:00 +0000",7.6718006134,"9 sold"],["Tue, 10 Jun 2014 12:00:00 +0000",7.82499980927,"4 sold"],["Tue, 10 Jun 2014 13:00:00 +0000",10.9126033783,"2 sold"],["Tue, 10 Jun 2014 14:00:00 +0000",7.99499988556,"2 sold"],["Tue, 10 Jun 2014 15:00:00 +0000",7.32294654846,"1 sold"],["Tue, 10 Jun 2014 16:00:00 +0000",7.12144517899,"5 sold"],["Tue, 10 Jun 2014 17:00:00 +0000",7.66090011597,"4 sold"],["Tue, 10 Jun 2014 18:00:00 +0000",7.26999998093,"3 sold"],["Tue, 10 Jun 2014 19:00:00 +0000",7.6238899231,"5 sold"],["Tue, 10 Jun 2014 20:00:00 +0000",7.67331981659,"5 sold"],["Tue, 10 Jun 2014 21:00:00 +0000",7.54189348221,"3 sold"],["Tue, 10 Jun 2014 22:00:00 +0000",7.15284872055,"3 sold"],["Tue, 10 Jun 2014 23:00:00 +0000",10,"1 sold"],["Wed, 11 Jun 2014 00:00:00 +0000",7.71999979019,"1 sold"],["Wed, 11 Jun 2014 03:00:00 +0000",10.3549995422,"2 sold"],["Wed, 11 Jun 2014 04:00:00 +0000",8.30884075165,"2 sold"],["Wed, 11 Jun 2014 05:00:00 +0000",7.46999979019,"1 sold"],["Wed, 11 Jun 2014 07:00:00 +0000",7.53999996185,"2 sold"],["Wed, 11 Jun 2014 08:00:00 +0000",7.63999986649,"5 sold"],["Wed, 11 Jun 2014 09:00:00 +0000",7.4279255867,"2 sold"],["Wed, 11 Jun 2014 10:00:00 +0000",7.49540901184,"3 sold"],["Wed, 11 Jun 2014 11:00:00 +0000",7.39090156555,"5 sold"],["Wed, 11 Jun 2014 12:00:00 +0000",7.40585947037,"4 sold"],["Wed, 11 Jun 2014 13:00:00 +0000",7.67999982834,"9 sold"],["Wed, 11 Jun 2014 14:00:00 +0000",7.86000013351,"11 sold"],["Wed, 11 Jun 2014 15:00:00 +0000",7.90000009537,"1 sold"],["Wed, 11 Jun 2014 16:00:00 +0000",7.35291385651,"7 sold"],["Wed, 11 Jun 2014 17:00:00 +0000",7.63999986649,"3 sold"],["Wed, 11 Jun 2014 18:00:00 +0000",7.64499998093,"4 sold"],["Wed, 11 Jun 2014 19:00:00 +0000",7.57000017166,"2 sold"],["Wed, 11 Jun 2014 20:00:00 +0000",7.53000736237,"3 sold"],["Wed, 11 Jun 2014 21:00:00 +0000",7.53490495682,"4 sold"],["Wed, 11 Jun 2014 22:00:00 +0000",7.6465959549,"3 sold"],["Wed, 11 Jun 2014 23:00:00 +0000",6.61899232864,"2 sold"],["Thu, 12 Jun 2014 01:00:00 +0000",7.63662862778,"2 sold"],["Thu, 12 Jun 2014 02:00:00 +0000",7.76999998093,"1 sold"],["Thu, 12 Jun 2014 03:00:00 +0000",7.85195350647,"4 sold"],["Thu, 12 Jun 2014 05:00:00 +0000",7.75,"3 sold"],["Thu, 12 Jun 2014 06:00:00 +0000",8.14084148407,"2 sold"],["Thu, 12 Jun 2014 07:00:00 +0000",8.57999992371,"5 sold"],["Thu, 12 Jun 2014 08:00:00 +0000",13.3599996567,"1 sold"],["Thu, 12 Jun 2014 09:00:00 +0000",7.47487545013,"5 sold"],["Thu, 12 Jun 2014 10:00:00 +0000",7.32539558411,"3 sold"],["Thu, 12 Jun 2014 11:00:00 +0000",7.46999979019,"8 sold"],["Thu, 12 Jun 2014 12:00:00 +0000",10.8084077835,"4 sold"],["Thu, 12 Jun 2014 13:00:00 +0000",7.67543983459,"1 sold"],["Thu, 12 Jun 2014 14:00:00 +0000",8.04964256287,"4 sold"],["Thu, 12 Jun 2014 15:00:00 +0000",8.10000038147,"7 sold"],["Thu, 12 Jun 2014 16:00:00 +0000",7.92999982834,"3 sold"],["Thu, 12 Jun 2014 17:00:00 +0000",7.90843200684,"1 sold"],["Thu, 12 Jun 2014 18:00:00 +0000",7.95710706711,"2 sold"],["Thu, 12 Jun 2014 19:00:00 +0000",7.78999996185,"1 sold"],["Thu, 12 Jun 2014 20:00:00 +0000",7.57243776321,"6 sold"],["Thu, 12 Jun 2014 21:00:00 +0000",7.49987220764,"2 sold"],["Thu, 12 Jun 2014 22:00:00 +0000",7.81500005722,"4 sold"],["Thu, 12 Jun 2014 23:00:00 +0000",10.6199998856,"2 sold"],["Fri, 13 Jun 2014 00:00:00 +0000",7.98709487915,"1 sold"],["Fri, 13 Jun 2014 01:00:00 +0000",7.5,"3 sold"],["Fri, 13 Jun 2014 02:00:00 +0000",7.98999977112,"1 sold"],["Fri, 13 Jun 2014 03:00:00 +0000",7.98999977112,"1 sold"],["Fri, 13 Jun 2014 04:00:00 +0000",7.84999990463,"1 sold"],["Fri, 13 Jun 2014 05:00:00 +0000",10.7399997711,"2 sold"],["Fri, 13 Jun 2014 06:00:00 +0000",7.84999990463,"2 sold"],["Fri, 13 Jun 2014 07:00:00 +0000",8.09000015259,"5 sold"],["Fri, 13 Jun 2014 08:00:00 +0000",8.33532905579,"2 sold"],["Fri, 13 Jun 2014 09:00:00 +0000",8.76000022888,"4 sold"],["Fri, 13 Jun 2014 11:00:00 +0000",8.2800359726,"2 sold"],["Fri, 13 Jun 2014 12:00:00 +0000",8.19446563721,"2 sold"],["Fri, 13 Jun 2014 13:00:00 +0000",8.15999984741,"5 sold"],["Fri, 13 Jun 2014 14:00:00 +0000",8.33024978638,"3 sold"],["Fri, 13 Jun 2014 15:00:00 +0000",8.32999992371,"3 sold"],["Fri, 13 Jun 2014 16:00:00 +0000",13.0100002289,"3 sold"],["Fri, 13 Jun 2014 17:00:00 +0000",10.653254509,"2 sold"],["Fri, 13 Jun 2014 18:00:00 +0000",8.01532554626,"1 sold"],["Fri, 13 Jun 2014 19:00:00 +0000",7.9503159523,"2 sold"],["Fri, 13 Jun 2014 22:00:00 +0000",7.91246271133,"4 sold"],["Fri, 13 Jun 2014 23:00:00 +0000",7.96000003815,"4 sold"],["Sat, 14 Jun 2014 00:00:00 +0000",7.93647193909,"2 sold"],["Sat, 14 Jun 2014 01:00:00 +0000",7.84999990463,"1 sold"],["Sat, 14 Jun 2014 03:00:00 +0000",7.98999977112,"3 sold"],["Sat, 14 Jun 2014 04:00:00 +0000",8.01097202301,"1 sold"],["Sat, 14 Jun 2014 06:00:00 +0000",7.96719551086,"2 sold"],["Sat, 14 Jun 2014 07:00:00 +0000",7.98573875427,"4 sold"],["Sat, 14 Jun 2014 08:00:00 +0000",8.14000034332,"5 sold"],["Sat, 14 Jun 2014 09:00:00 +0000",8.29139995575,"10 sold"],["Sat, 14 Jun 2014 10:00:00 +0000",8.09726333618,"2 sold"],["Sat, 14 Jun 2014 11:00:00 +0000",8.27625274658,"2 sold"],["Sat, 14 Jun 2014 12:00:00 +0000",8.34831047058,"3 sold"],["Sat, 14 Jun 2014 13:00:00 +0000",10.9250001907,"2 sold"],["Sat, 14 Jun 2014 14:00:00 +0000",8.04974269867,"3 sold"],["Sat, 14 Jun 2014 15:00:00 +0000",8.16182994843,"6 sold"],["Sat, 14 Jun 2014 16:00:00 +0000",8.11905002594,"5 sold"],["Sat, 14 Jun 2014 17:00:00 +0000",8.10999965668,"5 sold"],["Sat, 14 Jun 2014 18:00:00 +0000",8.32585430145,"4 sold"],["Sat, 14 Jun 2014 19:00:00 +0000",8.29478168488,"7 sold"],["Sat, 14 Jun 2014 20:00:00 +0000",8.17000007629,"2 sold"],["Sat, 14 Jun 2014 21:00:00 +0000",10.7749996185,"2 sold"],["Sat, 14 Jun 2014 22:00:00 +0000",7.90999984741,"2 sold"],["Sat, 14 Jun 2014 23:00:00 +0000",10.3800001144,"2 sold"],["Sun, 15 Jun 2014 01:00:00 +0000",8.10000038147,"1 sold"],["Sun, 15 Jun 2014 02:00:00 +0000",9.19999980927,"2 sold"],["Sun, 15 Jun 2014 03:00:00 +0000",8.15452480316,"2 sold"],["Sun, 15 Jun 2014 04:00:00 +0000",8.19999980927,"1 sold"],["Sun, 15 Jun 2014 05:00:00 +0000",8.07247638702,"2 sold"],["Sun, 15 Jun 2014 06:00:00 +0000",8.21000003815,"4 sold"]];
+			g_timePriceHistoryEarliest = new Date();
+			if ( line1 != false )
+			{
+				g_timePriceHistoryEarliest = new Date(line1[0][0]);
+				g_timePriceHistoryLatest = new Date(line1[line1.length-1][0]);
+			}
+
+			var strFormatPrefix = "&#36;";
+			var strFormatSuffix = "";
+
+			g_plotPriceHistory = CreatePriceHistoryGraph( line1, 7, strFormatPrefix, strFormatSuffix );
+
+			pricehistory_zoomMonthOrLifetime( g_plotPriceHistory, g_timePriceHistoryEarliest, g_timePriceHistoryLatest );
+		});
+	
+			$J(document).ready( function(){
+			InstallMarketActionMenuButtons();
+		});
+	
+	</script>
+
+</body>
+</html>
