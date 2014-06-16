@@ -44,7 +44,6 @@ namespace SteamBot
                 Url = response.ResponseUri;
                 return ProcessContent(response);
             }
-
         }
 
         private string ProcessContent(HttpWebResponse response)

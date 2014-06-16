@@ -30,7 +30,8 @@
         {
             this.txtURL = new System.Windows.Forms.TextBox();
             this.btnGetPage = new System.Windows.Forms.Button();
-            this.txtResult = new System.Windows.Forms.TextBox();
+            this.txtLowestPrice = new System.Windows.Forms.TextBox();
+            this.txtPage = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtURL
@@ -50,20 +51,29 @@
             this.btnGetPage.UseVisualStyleBackColor = true;
             this.btnGetPage.Click += new System.EventHandler(this.btnGetPage_Click);
             // 
-            // txtResult
+            // txtLowestPrice
             // 
-            this.txtResult.Location = new System.Drawing.Point(13, 40);
-            this.txtResult.Multiline = true;
-            this.txtResult.Name = "txtResult";
-            this.txtResult.Size = new System.Drawing.Size(522, 421);
-            this.txtResult.TabIndex = 2;
+            this.txtLowestPrice.Location = new System.Drawing.Point(13, 39);
+            this.txtLowestPrice.Name = "txtLowestPrice";
+            this.txtLowestPrice.Size = new System.Drawing.Size(100, 20);
+            this.txtLowestPrice.TabIndex = 3;
+            this.txtLowestPrice.Text = "LowestPrice";
+            // 
+            // txtPage
+            // 
+            this.txtPage.Location = new System.Drawing.Point(12, 65);
+            this.txtPage.Multiline = true;
+            this.txtPage.Name = "txtPage";
+            this.txtPage.Size = new System.Drawing.Size(522, 378);
+            this.txtPage.TabIndex = 4;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(547, 473);
-            this.Controls.Add(this.txtResult);
+            this.Controls.Add(this.txtPage);
+            this.Controls.Add(this.txtLowestPrice);
             this.Controls.Add(this.btnGetPage);
             this.Controls.Add(this.txtURL);
             this.Name = "Form1";
@@ -77,7 +87,8 @@
 
         private System.Windows.Forms.TextBox txtURL;
         private System.Windows.Forms.Button btnGetPage;
-        private System.Windows.Forms.TextBox txtResult;
+        private System.Windows.Forms.TextBox txtLowestPrice;
+        private System.Windows.Forms.TextBox txtPage;       
     }
 }
 

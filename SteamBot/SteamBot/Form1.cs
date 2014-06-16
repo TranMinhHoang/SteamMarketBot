@@ -21,15 +21,37 @@ namespace SteamBot
         private void btnGetPage_Click(object sender, EventArgs e)
         {
             string result;
+            double lowestPrice;
             HttpDownloader download;
+            HtmlParser parser;
             if (txtURL.Text != "")
             {
                 download = new HttpDownloader(txtURL.Text, null, null);
                 result = download.GetPage();
+                parser = new HtmlParser(result);
                 StreamWriter res = new StreamWriter("result.txt");
                 res.Write(result);
                 res.Close();
-                txtResult.Text = result;
+                txtPage.Text = result;
+                lowestPrice = parser.parseHtml();
+                StreamWriter Form1Debug = new StreamWriter("Form1DebugInfor.txt");
+                try
+                {
+                    txtLowestPrice.Text = Convert.ToString(lowestPrice);
+                }
+                catch (System.OverflowException)
+                {
+                    Form1Debug.WriteLine("Conversion from string-to-double overflowed.");
+                }
+                catch (System.FormatException)
+                {
+                    Form1Debug.WriteLine("The string was not formatted as a double.");
+                }
+                catch (System.ArgumentException)
+                {
+                    Form1Debug.WriteLine("The string pointed to null.");
+                }
+                Form1Debug.Close();
             }
         }
     }
